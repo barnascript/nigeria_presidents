@@ -1,0 +1,31 @@
+.wrapper {
+  .charts {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 40px;
+
+    .chart {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      grid-column: span 6;
+      background-color: rgb(239, 249, 249);
+      padding: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    .charts {
+      padding-top: 200px;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+
+      .chart {
+        grid-column: span 12;
+      }
+    }
+  }
+}

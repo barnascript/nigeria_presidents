@@ -1,0 +1,60 @@
+h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(2.5rem, 5vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(2rem, 5vw, 2.5rem);
+}
+
+h4 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+h5 {
+  font-size: clamp(1rem, 5vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 5vw, 1.2rem);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url();
+}
+
+@font-face {
+  font-family: "Public Sans900";
+  src: url(../fonts/Public_Sans/static/PublicSans-ExtraBold.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Public Sans800";
+  src: url(../fonts/Public_Sans/static/PublicSans-Bold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Public Sans1000";
+  src: url(../fonts/Public_Sans/static/PublicSans-Black.ttf);
+  font-weight: 1000;
+}
+
+@font-face {
+  font-family: "Public SansMedium";
+  src: url(../fonts/Public_Sans/static/PublicSans-Medium.ttf);
+}

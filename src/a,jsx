@@ -1,0 +1,96 @@
+import { useEffect, useState } from "react";
+import * as d3 from "d3";
+import styles from "./GeneralLineChart.module.scss";
+import copy from "./presidents_worksheets.csv";
+
+const LineChart = ({ metric }) => {
+  const [allGdps, setAllGdps] = useState([]);
+
+  useEffect(() => {
+    const parseStrings = async () => {
+      const allDataPromise = await d3.csv(copy);
+      const stringedPopulation = await allDataPromise;
+
+      const populationArray = stringedPopulation.flatMap((item) => {
+        const stringPopulation = item.Population.split("\n");
+        return stringPopulation.map((pair) => {
+          const [yearPart, valuePart] = pair.split(", value:");
+          const year = Number(yearPart.split(":")[1]);
+          const value = Number(valuePart);
+          return { year, value };
+        });
+      });
+
+      setAllGdps(populationArray);
+    };
+
+    parseStrings();
+  }, []);
+
+  console.log(allGdps);
+
+  useEffect(() => {
+    if (allGdps.length > 0) {
+      const dimensions = {
+        width: window.innerWidth * 0.4,
+        height: 400,
+        margins: { top: 15, right: 15, bottom: 40, left: 60 },
+      };
+
+      const yAccessor = (d) => d.value;
+      const xAccessor = (d) => new Date(d.year, 0, 1);
+
+      const wrapper = d3.select("#line_chart");
+
+      wrapper.selectAll("*").remove(); // Clear existing chart
+
+      const bounds = wrapper
+        .append("svg")
+        .attr("width", dimensions.width)
+        .attr("height", dimensions.height)
+        .append("g")
+        .style(
+          "transform",
+          `translate(${dimensions.margins.left}px, ${dimensions.margins.top}px)`
+        );
+
+      const yScale = d3
+        .scaleLinear()
+        .domain(d3.extent(allGdps, yAccessor))
+        .range([dimensions.height - dimensions.margins.top, 0]);
+
+      const xScale = d3
+        .scaleTime()
+        .domain(d3.extent(allGdps, xAccessor))
+        .range([0, dimensions.width - dimensions.margins.left]);
+
+      const lineGenerator = d3
+        .line()
+        .x((d) => xScale(xAccessor(d)))
+        .y((d) => yScale(yAccessor(d)));
+
+      bounds
+        .append("path")
+        .attr("d", lineGenerator(allGdps))
+        .attr("fill", "none")
+        .attr("stroke", "red")
+        .attr("stroke-width", 2);
+
+      const yAxisGenerator = d3.axisLeft().scale(yScale);
+      bounds.append("g").call(yAxisGenerator);
+
+      const xAxisGenerator = d3.axisBottom().scale(xScale);
+      bounds
+        .append("g")
+        .attr(
+          "transform",
+          `translate(0,${dimensions.height - dimensions.margins.top})`
+        )
+        .call(xAxisGenerator);
+    }
+  }, [allGdps]);
+
+  return <div id="line_chart" className={styles.line}></div>;
+};
+
+export default LineChart;

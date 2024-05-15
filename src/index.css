@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans";
+}
+
+.sw {
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url(../src/fonts/Public_Sans/static/PublicSans-Regular.ttf);
+}
