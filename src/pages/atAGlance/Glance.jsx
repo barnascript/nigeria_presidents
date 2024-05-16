@@ -73,7 +73,7 @@ const Glance = () => {
           </div>
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Number of Deaths Per 1000"}
+              metric={"Real GDP"}
               fact={selectedPresident?.["GDP Analysis"]}
               average={selectedPresident?.["GDP Highest and Lowest"]}
             />
@@ -98,6 +98,40 @@ const Glance = () => {
               average={selectedPresident?.["Population Highest and Lowest"]}
             />
             <Timeline metric={"Population"} />
+          </div>
+          <div className={styles.chart}>
+            <ChartHeader
+              metric={"Birth Rate"}
+              fact={selectedPresident?.["Birth Rate Analysis"]}
+              average={selectedPresident?.["Birth Rate Highest and Lowest"]}
+            />
+            <Timeline metric={"Birth Rate"} />
+          </div>
+          <div className={styles.chart}>
+            <ChartHeader
+              metric={"Life Expectancy"}
+              fact={selectedPresident?.["Life Expectancy Analysis"]}
+              average={
+                selectedPresident?.["Life Expectancy Highest and Lowest"]
+              }
+            />
+            <Timeline metric={"Life Expectancy"} />
+          </div>
+          <div className={styles.chart}>
+            <ChartHeader
+              metric={"Unemployment Rate"}
+              fact={selectedPresident?.["Unemployment Rate Analysis"]}
+              average={selectedPresident?.["Unemployment Highest and Lowest"]}
+            />
+            <Timeline metric={"Unemployment Numbers"} />
+          </div>
+          <div className={styles.chart}>
+            <ChartHeader
+              metric={"Inflation"}
+              fact={selectedPresident?.["Inflation Analysis"]}
+              average={selectedPresident?.["Inflation Highest and Lowest"]}
+            />
+            <Timeline metric={"Inflation"} />
           </div>
         </div>
       </div>
