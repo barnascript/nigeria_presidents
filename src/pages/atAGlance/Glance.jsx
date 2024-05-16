@@ -79,7 +79,7 @@ const Glance = () => {
             />
             <Timeline metric={"Real GDP"} />
           </div>
-          {/* <div className={styles.chart}>
+          <div className={styles.chart}>
             <ChartHeader
               metric={"Infant Mortality Per 1000"}
               fact={selectedPresident?.["Infant Mortality Analysis"]}
@@ -90,7 +90,7 @@ const Glance = () => {
               }
             />
             <Timeline metric={"Infant Mortality Number"} />
-          </div> */}
+          </div>
           <div className={styles.chart}>
             <ChartHeader
               metric={"Population in Millions"}

@@ -1,17 +1,17 @@
-﻿id,Full_Name,Title,Date of Birth,Ethnic Group,Language,Month of Birth,Image Url,Place of Birth,State of Origin,Religion,Year he took over power,Age When he came to power,Entry Age and Year,Age when he left,Years in Power,Military or Democratic,Death Numbers,Death Rate,Death Rate Highest and Lowest,Death Rate Analysis,Life Expectancy,Life Expectancy Highest and Lowest,Life Expectancy Analysis,Inflation,Inflation Highest and Lowest,Inflation Analysis,Infant Mortality Number,Infant Mortality Rate,Infant Mortality Percent Highest and Lowest,Infant Mortality Analysis,Real GDP,GDP Highest and Lowest,GDP Analysis,Population,Population Highest and Lowest,Population Analysis,Reason for leaving Power,Method of leaving power,The Geopolitical Zone he came from,Highest education,Political Party,Leadership style,Political ideology or philosophy,Vision for Nigeria's future during his presidency,Major political controversies or scandals involving the president,Legacy or lasting impact on Nigerian politics and society,Relationship with the National Assembly (Parliament) and other key stakeholders,quote
+﻿id,Full_Name,Title,Date of Birth,Ethnic Group,Language,Month of Birth,Image Url,Place of Birth,State of Origin,Religion,Year he took over power,Age When he came to power,Entry Age and Year,Age when he left,Years in Power,Military or Democratic,Death Numbers,Death Rate Highest and Lowest,Death Rate Analysis,Birth Rate,Birth Rate Highest and Lowest,Birth Rate Analysis,Life Expectancy,Life Expectancy Highest and Lowest,Life Expectancy Analysis,Inflation,Inflation Highest and Lowest,Inflation Analysis,Infant Mortality Number,Infant Mortality Percent Highest and Lowest,Infant Mortality Analysis,Real GDP,GDP Highest and Lowest,GDP Analysis,Population,Population Highest and Lowest,Population Analysis,Unemployment Numbers,Unemployment Highest and Lowest,Unemployment Rate Analysis,Reason for leaving Power,Method of leaving power,The Geopolitical Zone he came from,Highest education,Political Party,Leadership style,Political ideology or philosophy,Vision for Nigeria's future during his presidency,Major political controversies or scandals involving the president,Legacy or lasting impact on Nigerian politics and society,Relationship with the National Assembly (Parliament) and other key stakeholders,quote
 1,Nnamdi Benjamin Azikiwe,1st President of Nigeria,"16th November, 1904",Igbo,"English, Igbo, Hausa, Yoruba",November,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715086889/azikiwe_k3wyoq.jpg,"Zungeru, Northern Nigeria Protectorate.(Present Day Niger State)",Anambra,Christianity,1960,59,"year: 1960, value: 59",61,3,Democratic,"year: 1960, value: 26.65
 year: 1961, value: 26.19
 year: 1962, value: 25.74
 year: 1963, value: 25.293
 year: 1964, value: 24.95
 year: 1965, value: 24.61
-year: 1966, value: 24.27","year: 1960, value: -1.67
-year: 1961, value: -1.7
-year: 1962, value: -1.73
-year: 1963, value: -1.76
-year: 1964, value: -1.35
-year: 1965, value: -1.37
-year: 1966, value: -1.38",The highest deaths per 1000 persons were 26.65 in 1966. The Lowest was 24.27.,Azikiwe’s presidency averaged a Death range of 29.6 per 1000 persons during his 7 years in office.,"year: 1960, value: 37.371
+year: 1966, value: 24.27",The highest deaths per 1000 persons were 26.65 in 1966. The Lowest was 24.27.,Azikiwe’s presidency averaged a Death range of 29.6 per 1000 persons during his 7 years in office.,"year: 1960, value: 46.3
+year: 1961, value: 46.279
+year: 1962, value: 46.259
+year: 1963, value: 46.238
+year: 1964, value: 46.155
+year: 1965, value: 46.071
+year: 1966, value: 45.988",The highest births per 1000 persons was 46.3 in 1966. The Lowest was 45.98.,Azikiwe’s presidency averaged a Birth range of 46.18 per 1000 persons during his 7 years in office.,"year: 1960, value: 37.371
 year: 1961, value: 37.673
 year: 1962, value: 37.809
 year: 1963, value: 38.192
@@ -23,13 +23,7 @@ year: 1962, value: 5.265632346
 year: 1963, value: -2.694655352
 year: 1964, value: 0.856793146
 year: 1965, value: 4.103458738
-year: 1966, value: 9.690346084",The highest rate of 9.69% was in 1963. The Lowest rate was -2.69%.,Azikiwe’s presidency averaged an Inflation rate of 4.14% during his 7 years in office.,"year: 1960, value: 189.6
-year: 1961, value: 189.6
-year: 1962, value: 189.6
-year: 1963, value: 189.6
-year: 1964, value: 193.9
-year: 1965, value: 189.6
-year: 1966, value: 185.3","year: 1960, value: 18.9
+year: 1966, value: 9.690346084",The highest rate of 9.69% was in 1963. The Lowest rate was -2.69%.,Azikiwe’s presidency averaged an Inflation rate of 4.14% during his 7 years in office.,"year: 1960, value: 18.9
 year: 1961, value: 18.9
 year: 1962, value: 18.9
 year: 1963, value: 18.9
@@ -46,8 +40,14 @@ year: 1962, value: 46821845
 year: 1963, value: 47822569
 year: 1964, value: 48856332
 year: 1965, value: 49925799
-year: 1966, value: 51020296",The highest and lowest rate of 1.02% was consistent through out his tenure.,Azikiwe’s presidency averaged a Population growth rate of 0.87% during his 7 years in office.,A military coup led by Major Chukwuma Kaduna Nzeogwu aimed at ending perceived political corruption and inefficiency,Coup,South East (Anambra State),Bachelor's degree in Law,National Council of Nigeria and the Cameroons (NCNC),Charismatic,"Nationalism, Pan Africanism","Advocated for unity among Nigeria's diverse ethnic groups, economic development, and self-governance","The disputed 1964 federal election, which was plagued by allegations of electoral fraud and irregularities.","Considered the 'father of Nigerian nationalism' and played a crucial role in Nigeria's struggle for independence. His legacy includes promoting unity, advocating for African identity, and laying the foundation for modern Nigerian politics.","A cooperative relationship with the National Assembly and other stakeholders, navigating occasional tensions amid Nigeria's evolving democracy.",My stiffest earthly assignment is ended and my major life's work is done. My country is now free and I have been honoured to be its first indigenous head of state. What more could one desire in life?
-2,Johnson Thomas Aguiyi Ironsi,2nd Head of State of Nigeria,"3rd March, 1924",Igbo,"English, Igbo",March,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715086915/ironsi_waxvzs.jpg,"Umuahia, Southern Region, British Nigeria (Present Day: Abia State)",Abia,Christianity,1966,42,"year: 1966, value: 42",42,6 months,Military,"year: 1966, value: 24.27","year: 1966, value: -1.38",The highest and lowest of 24.27 per 1000 persons was consistent through out his tenure.,"Aguiyi Ironsi’s presidency averaged a Death range of 29.6 per 1000 persons,spent 194 days in power and left it at the same rate.","year: 1966, value: 38.797",The highest and lowest rate of 38.80 was consistent through out his tenure.,"Aguiyi Ironsi met the Infant Mortality rate at 38.80, spent 194 days in power and left it at the same rate.","year: 1966, value: 9.69034608375119","Aguiyi Ironsi met the GDP rate at 9.69%, spent 194 days in power and left it at the same rate.",,,"year: 1966, value: 185.3",The highest and lowest rate of 18.5% was consistent through out his tenure.,"Aguiyi Ironsi met the Infant Mortality rate at 18.5%, spent 194 days in power and left it at the same rate.","year: 1966, value: -4.250514184","Aguiyi Ironsi met the GDP rate at -4.25%, spent 194 days in power and left it at the same rate.",,"year: 1966, value: 51020296",The highest and lowest rate of 1.02% was consistent through out his tenure.,"Aguiyi Ironsi’s presidency met the Population rate at 0.87å%, spent 194 days in power and left it at the same rate.",Assassinated during the July counter-coup of 1966,Coup,South East (Abia State),"Attended courses at the Imperial Defence College (Royal College of Defence Studies), UK",None,Authoritarian,Implicit Centralization and National Integration,"His vision was to unify and stabilize Nigeria after the January coup, but ethnic and religious tensions posed challenges. Controversy arose from his Decree No. 34, which centralized power, and his handling of the coup aftermath, contributing to the July counter-coup.","Controversy surrounding the promulgation of Decree No. 34, which abolished the federal structure in favor of a unitary one, and his handling of the aftermath of the January coup, which led to resentment and contributed to the July counter-coup.",His centralization of power through Decree No. 34 and handling of ethnic tensions contributed to political divisions and set precedents for military rule. ,"As a military ruler, Aguiyi-Ironsi didn't have a traditional relationship with a National Assembly. He faced challenges managing relations with regional leaders and the military hierarchy due to his centralization of power and handling of post-coup grievances.","Our determination is that until the two decrees I have signed today are abrogated, every individual should be preoccupied with the task of national reconstruction, not as ex-politician, but simply as a Nigerian with faith in his country’s destiny."
+year: 1966, value: 51020296","The highest of 51,020,296 and lowest of 44,928,342 characterized his tenure.",Azikiwe’s presidency averaged a Population growth rate of 0.87% during his 7 years in office.,"year: 1960, value: 0
+year: 1961, value: 0
+year: 1962, value: 0
+year: 1963, value: 0
+year: 1964, value: 0
+year: 1965, value: 0
+year: 1966, value: 0",The highest and lowest rate of 0% was consistent through out his tenure.,Azikiwe’s presidency averaged a Unemployment range of 0 per 1000 persons during his 7 years in office.,A military coup led by Major Chukwuma Kaduna Nzeogwu aimed at ending perceived political corruption and inefficiency,Coup,South East (Anambra State),Bachelor's degree in Law,National Council of Nigeria and the Cameroons (NCNC),Charismatic,"Nationalism, Pan Africanism","Advocated for unity among Nigeria's diverse ethnic groups, economic development, and self-governance","The disputed 1964 federal election, which was plagued by allegations of electoral fraud and irregularities.","Considered the 'father of Nigerian nationalism' and played a crucial role in Nigeria's struggle for independence. His legacy includes promoting unity, advocating for African identity, and laying the foundation for modern Nigerian politics.","A cooperative relationship with the National Assembly and other stakeholders, navigating occasional tensions amid Nigeria's evolving democracy.",My stiffest earthly assignment is ended and my major life's work is done. My country is now free and I have been honoured to be its first indigenous head of state. What more could one desire in life?
+2,Johnson Thomas Aguiyi Ironsi,2nd Head of State of Nigeria,"3rd March, 1924",Igbo,"English, Igbo",March,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715086915/ironsi_waxvzs.jpg,"Umuahia, Southern Region, British Nigeria (Present Day: Abia State)",Abia,Christianity,1966,42,"year: 1966, value: 42",42,6 months,Military,"year: 1966, value: 24.27",The highest and lowest of 24.27 per 1000 persons was consistent through out his tenure.,"Aguiyi Ironsi’s presidency averaged a Death range of 29.6 per 1000 persons,spent 194 days in power and left it at the same rate.","year: 1966, value: 45.988",The highest and lowest of 45.98 per 1000 persons was consistent through out his tenure.,"Aguiyi Ironsi’s presidency averaged a Birth range of 46.18 per 1000 persons,spent 194 days in power and left it at the same rate.","year: 1966, value: 38.797",The highest and lowest rate of 38.80 was consistent through out his tenure.,"Aguiyi Ironsi met the Infant Mortality rate at 38.80, spent 194 days in power and left it at the same rate.","year: 1966, value: 9.69034608375119","Aguiyi Ironsi met the GDP rate at 9.69%, spent 194 days in power and left it at the same rate.","Aguiyi Ironsi met the GDP rate at 4.14%, spent 194 days in power and left it at the same rate.","year: 1966, value: 185.3",The highest and lowest rate of 18.5% was consistent through out his tenure.,"Aguiyi Ironsi met the Infant Mortality rate at 18.5%, spent 194 days in power and left it at the same rate.","year: 1966, value: -4.250514184","Aguiyi Ironsi met the GDP rate at -4.25%, spent 194 days in power and left it at the same rate.",Aguiyi Ironsi’s presidency averaged a GDP growth rate of -4.25% during his 9 years in office.,"year: 1966, value: 51020296","The highest and lowest rate of 51,020,296 was consistent through out his tenure.","Aguiyi Ironsi’s presidency met the Population rate at 0.87å%, spent 194 days in power and left it at the same rate.","year: 1966, value:0",The highest and lowest rate of 0% was consistent through out his tenure.,"Aguiyi Ironsi’s presidency averaged a Unemployment range of 0 per 1000 persons,spent 194 days in power and left it at the same rate.",Assassinated during the July counter-coup of 1966,Coup,South East (Abia State),"Attended courses at the Imperial Defence College (Royal College of Defence Studies), UK",None,Authoritarian,Implicit Centralization and National Integration,"His vision was to unify and stabilize Nigeria after the January coup, but ethnic and religious tensions posed challenges. Controversy arose from his Decree No. 34, which centralized power, and his handling of the coup aftermath, contributing to the July counter-coup.","Controversy surrounding the promulgation of Decree No. 34, which abolished the federal structure in favor of a unitary one, and his handling of the aftermath of the January coup, which led to resentment and contributed to the July counter-coup.",His centralization of power through Decree No. 34 and handling of ethnic tensions contributed to political divisions and set precedents for military rule. ,"As a military ruler, Aguiyi-Ironsi didn't have a traditional relationship with a National Assembly. He faced challenges managing relations with regional leaders and the military hierarchy due to his centralization of power and handling of post-coup grievances.","Our determination is that until the two decrees I have signed today are abrogated, every individual should be preoccupied with the task of national reconstruction, not as ex-politician, but simply as a Nigerian with faith in his country’s destiny."
 3,Yakubu Dan-Yumma Gowon,3rd Head of State of Nigeria,19th October 1934,Ngas,"English, Hausa",October,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715329080/gowon_tmucou.jpg,"Lur, Kanke Local Government Area, Plateau State, Nigeria",Plateau,Christianity,1966,31,"year: 1966, value: 31",40,8 years and 8 months,Military,"year: 1967, value: 23.93
 year: 1968, value: 23.59
 year: 1969, value: 23.28
@@ -56,15 +56,15 @@ year: 1971, value: 22.65
 year: 1972, value: 22.34
 year: 1973, value: 22.06
 year: 1974, value: 21.67
-year: 1975, value: 21.32","year: 1967, value: -1.4
-year: 1968, value: -1.42
-year: 1969, value: -1.33
-year: 1970, value: -1.34
-year: 1971, value: -1.36
-year: 1972, value: -1.38
-year: 1973, value: -1.4
-year: 1974, value: -1.61
-year: 1975, value: -1.63",The highest deaths per 1000 persons were 23.93 in 1967. The Lowest was 22.06 in 1973.,Gowon’s presidency averaged a Death range of 22.97 per 1000 persons during his 9 years in office.,"year: 1967, value: 37.573
+year: 1975, value: 21.32",The highest deaths per 1000 persons were 23.93 in 1967. The Lowest was 22.06 in 1973.,Gowon’s presidency averaged a Death range of 22.97 per 1000 persons during his 9 years in office.,"year: 1967, value: 45.904
+year: 1968, value: 45.821
+year: 1969, value: 46.043
+year: 1970, value: 46.26
+year: 1971, value: 46.48
+year: 1972, value: 46.707
+year: 1973, value: 46.929
+year: 1974, value: 46.991
+year: 1975, value: 47.05",The highest births per 1000 persons were 47.05 in 1975. The Lowest was 45.90 in 1967.,Gowon’s presidency averaged a Birth range of 46.47 per 1000 persons during his 9 years in office.,"year: 1967, value: 37.573
 year: 1968, value: 38.482
 year: 1969, value: 38.718
 year: 1970, value: 39.713
@@ -80,7 +80,7 @@ year: 1971, value: 15.9991148482235
 year: 1972, value: 3.457649752
 year: 1973, value: 5.402664454
 year: 1974, value: 12.67439318
-year: 1975, value: 33.96418832",The highest rate of 33.96% was in 1963. The Lowest rate was -3.72%.,Gowon’s presidency averaged an Inflation rate of 10.14% during his 9 years in office.,,"year: 1967, value: 181.2
+year: 1975, value: 33.96418832",The highest rate of 33.96% was in 1963. The Lowest rate was -3.72%.,Gowon’s presidency averaged an Inflation rate of 10.14% during his 9 years in office.,"year: 1967, value: 181.2
 year: 1968, value: 176.9
 year: 1969, value: 172.7
 year: 1970, value: 168.2
@@ -104,21 +104,29 @@ year: 1971, value: 56837614
 year: 1972, value: 58173834
 year: 1973, value: 59605446
 year: 1974, value: 61157931
-year: 1975, value: 62851312",The highest and lowest rate of 1.02% was consistent through out his tenure.,Azikiwe’s presidency averaged a Population growth rate of 1.02% during his 9 years in office.,Overthrown in a coup d'etat led by Brigadier Murtala Mohammed,Coup,,Ph.D. in Political Science,None,Authoritarian,"Nigerian Nationalism, Unity, and Oneness","Promoted reconciliation, reconstruction, and rehabilitation after the Nigerian Civil War, aimed for economic growth, but faced challenges with corruption and bureaucracy.","Accusations of crimes against humanity and genocide during the Nigerian Civil War, corruption allegations post-presidency.","Known for his 'no victor, no vanquished' policy after the Civil War, his tenure saw economic growth fueled by oil revenues but also marked by corruption and bureaucratic inefficiency. His leadership during the Civil War and efforts towards reconciliation remain significant aspects of his legacy.","As a military leader, Gowon did not have a conventional relationship with a National Assembly. However, his administration faced challenges from various political factions, especially during and after the Civil War.",The worth of a child born and bred in Nigeria cannot be compared to that in the United States.
-4,Murtala Ramat Muhammed,4th Head of State of Nigeria,"8th November, 1938",Fulani,"English, Hausa",November,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328950/mohammed_bxgiyf.jpg,"Kano, Kano State",Kano,Islam,1975,36,"year: 1975, value: 36",37,6 months and 2 weeks,Military,"year: 1975, value: 21.32","year: 1975, value: -1.63",The highest and lowest number per 1000 was 21.32 in 1975.,"Gowon’s presidency averaged a Death range of 22.97 per 1000 persons, spent 194 days in power and left it at the same rate.","year: 1975, value: 43.662",The highest and lowest rate of 36 was consistent through out his tenure.,"Murtala met the Infant Mortality rate at 14.3%, spent 194 days in power and left it at the same rate.","year: 1975, value: 33.96418832","Murtala met the Inflation rate at 33.96%, spent 199 days in power and left it at the same rate.",,,"year: 1975, value: 143.6",The highest and lowest rate of 14.3% was consistent through out his tenure.,"Aguiyi Ironsi met the Infant Mortality rate at 14.3%, spent 194 days in power and left it at the same rate.","year: 1975, value: -5.227747555","Murtala met the GDP rate at -5.22%, spent 199 days in power and left it at the same rate.",,"year: 1975, value: 62851312",The highest and lowest rate of 1.02% was consistent through out his tenure.,"Murtala’s presidency met the Population rate at 1.02%, spent 194 days in power and left it at the same rate.","Assassinated on February 13, 1976, during his commute to work in Lagos, ambushed by soldiers led by Lt. Col. Buka Suka Dimka.",Assassination,North West (Kano State),"Royal Military Academy, Sandhurst",None,"Authoritarian, but with elements of consensus decision-making towards the end of his rule","Federalism, national federalism, pan-Africanism","Reconciliation, reconstruction, and rehabilitation after the Nigerian Civil War, centralization of government, economic reform, demilitarization of politics","Allegations of brutal repression, economic prosperity coupled with authoritarian rule, mass purge in the civil service, dismissal of thousands of civil servants, execution of a former military state governor for gross misconduct","Controversial legacy marked by both authoritarian rule and economic prosperity, significant contributions to nation-building, introduction of phrases to national lexicon, establishment of new states, initiation of plans for a new Federal Capital Territory (Abuja)","Limited information available, but as a military leader, Murtala Muhammed's relationship with civilian institutions might have been contentious.","Mr. Chairman, when I contemplate the evils of apartheid, my heart bleeds and I am sure the heart of every true blooded African bleeds."
+year: 1975, value: 62851312","The highest of 62,851,312  and lowest of 52,106,681 was consistent through out his tenure.",Gowon's presidency averaged a Population growth rate of 1.02% during his 9 years in office.,"year: 1967, value: 0
+year: 1968, value: 0
+year: 1969, value: 0
+year: 1970, value: 0
+year: 1971, value: 0
+year: 1972, value: 0
+year: 1973, value: 0
+year: 1974, value: 0
+year: 1975, value: 0",The highest and lowest rate of 0% was consistent through out his tenure.,Gowon’s presidency averaged a Unemployment range of 0 per 1000 persons during his 9 years in office.,Overthrown in a coup d'etat led by Brigadier Murtala Mohammed,Coup,North Central (Plateau State),Ph.D. in Political Science,None,Authoritarian,"Nigerian Nationalism, Unity, and Oneness","Promoted reconciliation, reconstruction, and rehabilitation after the Nigerian Civil War, aimed for economic growth, but faced challenges with corruption and bureaucracy.","Accusations of crimes against humanity and genocide during the Nigerian Civil War, corruption allegations post-presidency.","Known for his 'no victor, no vanquished' policy after the Civil War, his tenure saw economic growth fueled by oil revenues but also marked by corruption and bureaucratic inefficiency. His leadership during the Civil War and efforts towards reconciliation remain significant aspects of his legacy.","As a military leader, Gowon did not have a conventional relationship with a National Assembly. However, his administration faced challenges from various political factions, especially during and after the Civil War.",The worth of a child born and bred in Nigeria cannot be compared to that in the United States.
+4,Murtala Ramat Muhammed,4th Head of State of Nigeria,"8th November, 1938",Fulani,"English, Hausa",November,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328950/mohammed_bxgiyf.jpg,"Kano, Kano State",Kano,Islam,1975,36,"year: 1975, value: 36",37,6 months and 2 weeks,Military,"year: 1975, value: 21.32",The highest and lowest of 21.32 per 1000 persons was consistent through out his tenure.,"Murtala's presidency averaged a Death range of 22.97 per 1000 persons, spent 194 days in power and left it at the same rate.","year: 1975, value: 47.05",The highest and lowest of 47.05 per 1000 persons was consistent through out his tenure.,"Murtala's presidency averaged a Birth range of 46.47 per 1000 persons, spent 194 days in power and left it at the same rate.","year: 1975, value: 43.662",The highest and lowest rate of 36 was consistent through out his tenure.,"Murtala met the Infant Mortality rate at 14.3%, spent 194 days in power and left it at the same rate.","year: 1975, value: 33.96418832","Murtala met the Inflation rate at 33.96%, spent 199 days in power and left it at the same rate.","Murtala met the Inflation rate at 10.14%, spent 199 days in power and left it at the same rate.","year: 1975, value: 143.6",The highest and lowest rate of 14.3% was consistent through out his tenure.,"Murtala Ironsi met the Infant Mortality rate at 14.3%, spent 194 days in power and left it at the same rate.","year: 1975, value: -5.227747555","Murtala met the GDP rate at -5.22%, spent 199 days in power and left it at the same rate.",Murtala’s presidency averaged a GDP growth rate of -5.22% during his 199 days in office.,"year: 1975, value: 62851312","The highest and lowest rate of 62,851,312 was consistent through out his tenure.","Murtala’s presidency met the Population rate at 1.02%, spent 194 days in power and left it at the same rate.","year: 1975, value: 0",The highest and lowest rate of 0% was consistent through out his tenure.,"Murtala's presidency averaged a Unemployment range of 0 per 1000 persons, spent 194 days in power and left it at the same rate.","Assassinated on February 13, 1976, during his commute to work in Lagos, ambushed by soldiers led by Lt. Col. Buka Suka Dimka.",Assassination,North West (Kano State),"Royal Military Academy, Sandhurst",None,"Authoritarian, but with elements of consensus decision-making towards the end of his rule","Federalism, national federalism, pan-Africanism","Reconciliation, reconstruction, and rehabilitation after the Nigerian Civil War, centralization of government, economic reform, demilitarization of politics","Allegations of brutal repression, economic prosperity coupled with authoritarian rule, mass purge in the civil service, dismissal of thousands of civil servants, execution of a former military state governor for gross misconduct","Controversial legacy marked by both authoritarian rule and economic prosperity, significant contributions to nation-building, introduction of phrases to national lexicon, establishment of new states, initiation of plans for a new Federal Capital Territory (Abuja)","Limited information available, but as a military leader, Murtala Muhammed's relationship with civilian institutions might have been contentious.","Mr. Chairman, when I contemplate the evils of apartheid, my heart bleeds and I am sure the heart of every true blooded African bleeds."
 5,Obasanjo Olusegun,5th President of Nigeria,"8th November, 1938",Yoruba,"English, Yoruba",March,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328956/obasanjo_xbksaj.jpg,"Abeokuta, Ogun State",Ogun,Christianity,1976,39,"year: 1976, value: 39",42,3,Military,"year: 1976, value: 20.96
 year: 1977, value: 20.61
 year: 1978, value: 20.26
-year: 1979, value: 19.97","year: 1976, value: -1.67
-year: 1977, value: -1.69
-year: 1978, value: -1.72
-year: 1979, value: -1.43",The highest deaths per 1000 persons were 20.96 in 1976. The Lowest was 19.97 in 1979.,Gowon’s presidency averaged a Death number of 20.45 per 1000 persons during his 4 years in office.,"year: 1976, value: 44.721
+year: 1979, value: 19.97",The highest deaths per 1000 persons were 20.96 in 1976. The Lowest was 19.97 in 1979.,Obasanjo's presidency averaged a Death number of 20.45 per 1000 persons during his 4 years in office.,"year: 1976, value: 47.116
+year: 1977, value: 47.178
+year: 1978, value: 47.24
+year: 1979, value: 47.06",The highest births per 1000 persons were 47.24 in 1978. The Lowest was 47.06 in 1979.,Obasanjo's presidency averaged a Birth number of 47.15 per 1000 persons during his 4 years in office.,"year: 1976, value: 44.721
 year: 1977, value: 45.558
 year: 1978, value: 46.019
 year: 1979, value: 46.215",The highest was 46.22 in 1979. The Lowest rate was 44.72.,Obasanjo’s presidency averaged a Life Expectancy of 45.63 during his 4 years in office.,"year: 1976, value: 24.3
 year: 1977, value: 15.08783406
 year: 1978, value: 21.70924574
-year: 1979, value: 11.70973062",The highest rate of 24.3% was achieved in 1976. The Lowest rate was 11.71% in his fourth year.,Obasanjo’s presidency averaged an Inflation rate of 18.20% during his 4 years in office.,,"year: 1976, value: 139.1
+year: 1979, value: 11.70973062",The highest rate of 24.3% was achieved in 1976. The Lowest rate was 11.71% in his fourth year.,Obasanjo’s presidency averaged an Inflation rate of 18.20% during his 4 years in office.,"year: 1976, value: 139.1
 year: 1977, value: 135
 year: 1978, value: 131.3
 year: 1979, value: 128.4",The highest rate was 13.9% in 1976. The Lowest rate was 12.8%.,Obasanjo’s presidency averaged an Infant Mortality of 13.4% during his 4 years in office.,"year: 1976, value: 9.042351726
@@ -127,16 +135,19 @@ year: 1978, value: -5.764158394
 year: 1979, value: 6.759430935",The highest rate of 9.04% was achieved in 1976. The Lowest rate was -5.76% in his third year.,Obasanjo’s presidency averaged a GDP growth rate of 4.015% during his 4 years in office.,"year: 1976, value: 64658315
 year: 1977, value: 66589655
 year: 1978, value: 68633344
-year: 1979, value: 70750307",The highest and lowest rate of 1.02% was consistent through out his tenure.,Obasanjo’s presidency averaged a Population growth rate of 0.77% during his 4 years in office.,Transition to civilian rule,Transition,,"Royal College of Military Engineering, United Kingdom",None,Authoritarian,"Pragmatic, Authoritative","ransition to civilian rule, economic stability, anti-corruption measures","There were allegations of corruption during his presidency, as well as criticisms of human rights abuses and attempts to consolidate power. He faced a conviction in 1995 for involvement in a coup plot during the military regime of Sani Abacha.","Played a crucial role in the transition from military to civilian rule, implemented economic policies, and shaped Nigeria's foreign relations during his tenure.","As a military ruler, Obasanjo had a strained relationship with civilian institutions. However, he facilitated the transition to civilian rule, which laid the foundation for a more democratic governance structure.","If you deceive me once shame on you because I have trusted you once and you have deceived me, if you deceive me twice shame on me because I have learnt my lessons and you have deceive me and if you deceive me for the third time shame on me because am a compound fool."
+year: 1979, value: 70750307","The highest of 70,750,307 and lowest of 64,658,315 was consistent through out his tenure.",Obasanjo’s presidency averaged a Population growth rate of 0.77% during his 4 years in office.,"year: 1976, value: 0
+year: 1977, value: 0
+year: 1978, value: 0
+year: 1979, value: 0",The highest and lowest rate of 0% was consistent through out his tenure.,Obasanjo’s presidency averaged a Unemployment number of 0 per 1000 persons during his 4 years in office.,Transition to civilian rule,Transition,South West (Ogun State),"Royal College of Military Engineering, United Kingdom",None,Authoritarian,"Pragmatic, Authoritative","ransition to civilian rule, economic stability, anti-corruption measures","There were allegations of corruption during his presidency, as well as criticisms of human rights abuses and attempts to consolidate power. He faced a conviction in 1995 for involvement in a coup plot during the military regime of Sani Abacha.","Played a crucial role in the transition from military to civilian rule, implemented economic policies, and shaped Nigeria's foreign relations during his tenure.","As a military ruler, Obasanjo had a strained relationship with civilian institutions. However, he facilitated the transition to civilian rule, which laid the foundation for a more democratic governance structure.","If you deceive me once shame on you because I have trusted you once and you have deceived me, if you deceive me twice shame on me because I have learnt my lessons and you have deceive me and if you deceive me for the third time shame on me because am a compound fool."
 6,Shehu Usman Aliyu Shagari,6th President of Nigeria,"25th February, 1925",Fulani,"English, Hausa",February,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328964/shagari_wn2ab2.jpg,"Shagari, Sokoto State",Sokoto,Islam,1979,54,"year: 1979, value: 54",58,4,Democratic,"year: 1979, value: 19.97
 year: 1980, value: 19.67
 year: 1981, value: 19.38
 year: 1982, value: 19.1
-year: 1983, value: 19.81","year: 1979, value: -1.43
-year: 1980, value: -1.45
-year: 1981, value: -1.47
-year: 1982, value: -1.5
-year: 1983, value: -1.51",The highest deaths per 1000 persons were 19.97 in 1979. The Lowest was 19.38 in 1981.,Gowon’s presidency averaged a Death range of 19.59 per 1000 persons during his 5 years in office.,"year: 1979, value: 46.215
+year: 1983, value: 19.81",The highest deaths per 1000 persons were 19.97 in 1979. The Lowest was 19.38 in 1981.,Shagari's presidency averaged a Death range of 19.59 per 1000 persons during his 5 years in office.,"year: 1979, value: 47.065
+year: 1980, value: 46.81
+year: 1981, value: 46.71
+year: 1982, value: 46.54
+year: 1983, value: 46.367",The highest births per 1000 persons were 47.06 in 1979. The Lowest was 47.36 in 1983.,Shagari's presidency averaged a Birth range of 46.86 per 1000 persons during his 5 years in office.,"year: 1979, value: 46.215
 year: 1980, value: 46.349
 year: 1981, value: 46.493
 year: 1982, value: 46.513
@@ -144,7 +155,7 @@ year: 1983, value: 46.638",The highest was 46.64 in 1979. The Lowest rate was 46
 year: 1980, value: 9.97226199
 year: 1981, value: 20.8128229121949
 year: 1982, value: 7.697747247
-year: 1983, value: 23.21233155",The highest rate of 23.21% was achieved in 1983. The Lowest rate was 7.70% in his 4th year.,Shagari’s presidency averaged an Inflation rate of 14.68% during his 5 years in office.,,"year: 1979, value: 128.4
+year: 1983, value: 23.21233155",The highest rate of 23.21% was achieved in 1983. The Lowest rate was 7.70% in his 4th year.,Shagari’s presidency averaged an Inflation rate of 14.68% during his 5 years in office.,"year: 1979, value: 128.4
 year: 1980, value: 126
 year: 1981, value: 124.3
 year: 1982, value: 123.1
@@ -156,24 +167,30 @@ year: 1983, value: -10.92408503",The highest rate of 6.75% was achieved in 1979.
 year: 1980, value: 72951439
 year: 1981, value: 75175387
 year: 1982, value: 77388067
-year: 1983, value: 79351586",The highest and lowest rate of 1.02% was consistent through out his tenure.,Obasanjo’s presidency averaged a Population growth rate of 1.02% during his 5 years in office., Overthrown in a military coup led by General Muhammadu Buhari,Coup,North West (Sokoto State),London School of Economics,National Party of Nigeria (NPN),Democratic,"Democracy, Economic Development and Social Welfare",Shagari's presidency saw significant infrastructure development and educational initiatives.,"Shagari aimed to promote economic growth, industrialization, and agricultural development while fostering unity and stability within Nigeria.
+year: 1983, value: 79351586","The highest of 79,351,586 and lowest of 70,750,307 was consistent through out his tenure.",Shagari’s presidency averaged a Population growth rate of 1.02% during his 5 years in office.,"year: 1979, value: 0
+year: 1980, value: 0
+year: 1981, value: 0
+year: 1982, value: 0
+year: 1983, value: 0",The highest and lowest rate of 0% was consistent through out his tenure.,Shagari’s presidency averaged a Unemployment range of 0 per 1000 persons during his 5 years in office., Overthrown in a military coup led by General Muhammadu Buhari,Coup,North West (Sokoto State),London School of Economics,National Party of Nigeria (NPN),Democratic,"Democracy, Economic Development and Social Welfare",Shagari's presidency saw significant infrastructure development and educational initiatives.,"Shagari aimed to promote economic growth, industrialization, and agricultural development while fostering unity and stability within Nigeria.
 
 ","Shagari's presidency was marked by allegations of corruption and electoral fraud, particularly during the 1983 election. His government faced criticism for its handling of the economy, especially during the oil price downturn.","Shagari's relationship with the National Assembly was generally cooperative, as he worked to implement policies and legislation.","Jonathan may not be the best, but I can mention three to four breakthroughs in Nigeria that occurred under his regime."
 7,Muhammadu Buhari,7th Head Of State of Nigeria,"17th December, 1942",Fulani,"English, Hausa",December,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715325041/buhari_fovset.jpg,"Daura, Northern Region, British Nigeria (Present Day Katsina)",Katsina,Islam,1983,41,"year: 1983, value: 41",43,2,Military,"year: 1983, value: 18.81
 year: 1984, value: 18.78
-year: 1985, value: 18.75","year: 1983, value: -1.51
-year: 1984, value: -0.16
-year: 1985, value: -0.16",The highest deaths per 1000 persons were 19.97 in 1979. The Lowest was 19.38 in 1981.,Gowon’s presidency averaged a Death range of 19.59 per 1000 persons during his 5 years in office.,"year: 1983, value: 46.638
+year: 1985, value: 18.75",The highest deaths per 1000 persons were 19.97 in 1979. The Lowest was 19.38 in 1981.,Buhari's presidency averaged a Death range of 19.59 per 1000 persons during his 3 years in office.,"year: 1983, value: 46.367
+year: 1984, value: 46.079
+year: 1985, value: 45.790",The highest births per 1000 persons were 47.37 in 1983. The Lowest was 45.79 in 1985.,Buhari's presidency averaged a Birth range of 46.08 per 1000 persons during his 3 years in office.,"year: 1983, value: 46.638
 year: 1984, value: 46.55
 year: 1985, value: 46.317",The highest was 46.64 in 1983. The Lowest rate was 46.32.,Buhari’s presidency averaged a Life Expectancy of 46.5 during his 3 years in office.,"year: 1983, value: 23.2123315511559
 year: 1984, value: 17.8205332860842
-year: 1985, value: 7.435344828",The highest rate of 23.21% was achieved in 1985. The Lowest rate was 7.44% in his first year.,Buhari’s presidency averaged an Inflation rate of 16.15% during his 3 years in office.,,"year: 1983, value: 122.7
+year: 1985, value: 7.435344828",The highest rate of 23.21% was achieved in 1985. The Lowest rate was 7.44% in his first year.,Buhari’s presidency averaged an Inflation rate of 16.15% during his 3 years in office.,"year: 1983, value: 122.7
 year: 1984, value: 122.7
 year: 1985, value: 123",The highest rate was 12.7% in 1984. The Lowest rate was 12.3%.,Buhari’s presidency averaged an Infant Mortality of 12.43% during his 3 years in office.,"year: 1983, value: -10.92408503
 year: 1984, value: -1.115623217
 year: 1985, value: 5.913027459",The highest rate of 5.91% was achieved in 1985. The Lowest rate was -10.92% in his first year.,Buhari’s presidency averaged a GDP growth rate of -2.04% during his 3 years in office.,"year: 1983, value: 79351586
 year: 1984, value: 81337553
-year: 1985, value: 83585251",The highest of 1.03% and lowest rate of 1.02% described his tenure.,Buhari’s presidency averaged a Population growth rate of 0.68% during his 3 years in office.,Ousted in a military coup led by General Ibrahim Babangida and other members of the ruling Supreme Military Council in August 1985.,Coup,North West (Katsina State),Nigerian Military Training College,None,Authoritarian,Buharism (characterized by authoritarian policies and anti-corruption stance),"Anti-corruption, economic development","o combat corruption, restore discipline, and stabilize the economy.","Buhari's military rule is remembered for its authoritarianism, anti-corruption stance, and attempts to instill discipline. However, it is also criticized for human rights abuses and economic hardships experienced under his administration.","As a military ruler, Buhari did not have a National Assembly to contend with, but he faced opposition from various political and social groups.","Boosting education will be a direct counterbalance to Boko Haram's appeal. In particular we must educate more young girls, ensuring they will grow up to be empowered through learning to play their full part as citizens of Nigeria and pull themselves up and out of poverty."
+year: 1985, value: 83585251","The highest of 83,585,251 and lowest rate of 79,351,586 described his tenure.",Buhari’s presidency averaged a Population growth rate of 0.68% during his 3 years in office.,"year: 1983, value: 0
+year: 1984, value: 0
+year: 1985, value: 0",The highest and lowest rate of 0% was consistent through out his tenure.,Buhari’s presidency averaged a Unemployment range of 0 per 1000 persons during his 5 years in office.,Ousted in a military coup led by General Ibrahim Babangida and other members of the ruling Supreme Military Council in August 1985.,Coup,North West (Katsina State),Nigerian Military Training College,None,Authoritarian,Buharism (characterized by authoritarian policies and anti-corruption stance),"Anti-corruption, economic development","o combat corruption, restore discipline, and stabilize the economy.","Buhari's military rule is remembered for its authoritarianism, anti-corruption stance, and attempts to instill discipline. However, it is also criticized for human rights abuses and economic hardships experienced under his administration.","As a military ruler, Buhari did not have a National Assembly to contend with, but he faced opposition from various political and social groups.","Boosting education will be a direct counterbalance to Boko Haram's appeal. In particular we must educate more young girls, ensuring they will grow up to be empowered through learning to play their full part as citizens of Nigeria and pull themselves up and out of poverty."
 8,Muhammad Ibrahim Babangida,8th President of Nigeria,"17th August, 1941",Gwari,"English, Hausa",August,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715325033/babangida_ffthqo.jpg,"Minna, Niger State",Niger,Islam,1985,44,"year: 1985, value: 44",51,8,Military,"year: 1985, value: 18.75
 year: 1986, value: 18.72
 year: 1987, value: 18.69
@@ -182,15 +199,15 @@ year: 1989, value: 18.62
 year: 1990, value: 18.59
 year: 1991, value: 18.55
 year: 1992, value: 18.52
-year: 1993, value: 18.49","year: 1985, value: -0.18
-year: 1986, value: -0.17
-year: 1987, value: -0.16
-year: 1988, value: -0.17
-year: 1989, value: -0.18
-year: 1990, value: -0.18
-year: 1991, value: -0.18
-year: 1992, value: -0.18
-year: 1993, value: -0.18",The highest deaths per 1000 persons were 18.75 in 1985. The Lowest was 18.49 in 1993.,Babangida’s presidency averaged a Death range of 18.62 per 1000 persons during his 9 years in office.,"year: 1985, value: 46.317
+year: 1993, value: 18.49",The highest deaths per 1000 persons were 18.75 in 1985. The Lowest was 18.49 in 1993.,Babangida’s presidency averaged a Death range of 18.62 per 1000 persons during his 9 years in office.,"year: 1985, value: 45.79
+year: 1986, value: 45.502
+year: 1987, value: 45.213
+year: 1988, value: 44.925
+year: 1989, value: 44.690
+year: 1990, value: 44.455
+year: 1991, value: 44.221
+year: 1992, value: 43.986
+year: 1993, value: 43.751",The highest births per 1000 persons were 47.06 in 1979. The Lowest was 47.36 in 1983.,Babangida’s presidency averaged a Birth range of 44.7 per 1000 persons during his 9 years in office.,"year: 1985, value: 46.317
 year: 1986, value: 45.975
 year: 1987, value: 46.018
 year: 1988, value: 46.072
@@ -198,7 +215,7 @@ year: 1989, value: 46.182
 year: 1990, value: 46.037
 year: 1991, value: 45.691
 year: 1992, value: 45.668
-year: 1993, value: 45.788",The highest was 46.31 in 1985. The Lowest rate was 45.67.,Buhari’s presidency averaged a Life Expectancy of 45.9 during his 9 years in office.,"year: 1985, value: 7.435344828
+year: 1993, value: 45.788",The highest was 46.31 in 1985. The Lowest rate was 45.67.,Babangida’s presidency averaged a Life Expectancy of 45.9 during his 9 years in office.,"year: 1985, value: 7.435344828
 year: 1986, value: 5.71715145436305
 year: 1987, value: 11.29032258
 year: 1988, value: 54.5112247797671
@@ -206,7 +223,7 @@ year: 1989, value: 50.4666881235916
 year: 1990, value: 7.364400306
 year: 1991, value: 13.0069731
 year: 1992, value: 44.58884272
-year: 1993, value: 57.16525283",The highest rate of 57.17% was in 1993. The Lowest rate was 5.72% in his 2nd year.,Babangida’s presidency averaged an Inflation rate of 27.96% during his 9 years in office.,,"year: 1985, value: 123
+year: 1993, value: 57.16525283",The highest rate of 57.17% was in 1993. The Lowest rate was 5.72% in his 2nd year.,Babangida’s presidency averaged an Inflation rate of 27.96% during his 9 years in office.,"year: 1985, value: 123
 year: 1986, value: 123.5
 year: 1987, value: 124
 year: 1988, value: 124.3
@@ -230,19 +247,27 @@ year: 1989, value: 92744064
 year: 1990, value: 95214257
 year: 1991, value: 97685360
 year: 1992, value: 100182045
-year: 1993, value: 102775465",The highest of 1.05% and lowest rate of 1.02% described his tenure.,Buhari’s presidency averaged a Population growth rate of 0.92% during his 9 years in office.,Resignation amid political crisis and widespread protests following the annulment of the 1993 presidential election,Resignation,North Central (Niger State),"Military training, attended the Nigerian Military Training College and various military courses including those at the Indian Military Academy, United States Army Armor School, and Armed Forces Command and Staff College, Jaji",None,Authoritarian,"Pragmatism, Economic Liberalization, Pan-Africanism","Modernization, economic liberalization, and increased global engagement","Annulment of the June 12, 1993, presidential election, which led to widespread protests and political unrest; allegations of corruption and embezzlement of public funds during his regime","He is remembered for its economic policies such as the Structural Adjustment Program (SAP) and Mass Mobilization for Self Reliance, Social Justice and Economic Recovery (MAMSER), as well as for the controversial annulment of the June 12 election, which had significant implications for Nigeria's democratic transition. His regime also saw the establishment of state security apparatus and increased cooperation with the Muslim world.","As a military dictator, Babangida did not have a traditional relationship with the National Assembly, as it did not exist during his rule. However, he maintained control over the political landscape through the Armed Forces Ruling Council (AFRC) and other military structures.",But no nation can base its survival and development on luck and prayers alone while its leadership fritters away every available opportunity for success and concrete achievement.
-9,Chief Ernest Oladeinde Shonekan,9th Head of State of Nigeria,"9th May, 1936",Yoruba,"English, Yoruba",May,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328973/shonekan_tgtxcs.jpg,"Lagos, Lagos State",Lagos,Christianity,1993,57,"year: 1993, value: 57",57,3 months,Democratic,"year: 1993, value: 18.49","year: 1993, value: -0.18",The highest and lowest deaths per 1000 persons was 18.49 in 1993.,"Shonekan’s presidency averaged a Death range of 18.62 per 1000 persons, spent 194 days in power and left it at the same rate.","year: 1993, value: 45.788",The highest and lowest of 45.79 was consistent through out his tenure.,"Shonekan met the Life Expectancy at 45.79, spent 83 days and left it at the same rate.","year: 1993, value: 57.16525283","Shonekan met the Inflation rate at 57.17%, spent 83 days and left it at the same rate.",,,"year: 1993, value: 123",The highest and lowest rate of 12.3% was consistent through out his tenure.,"Shonekan met the Inflation Mortality at 12.3%, spent 83 days and left it at the same rate.","year: 1993, value: -2.035118774","Shonekan met the GDP rate at -2.03%, spent 83 days and left it at the same rate.",,"year: 1993, value: 102775465",The highest and lowest rate of 1.02% was consistent through out his tenure.,"Shonekan’s presidency met the Population rate at 1.02%, spent 83 days in power and left it at the same rate.",Overthrown in a military coup led by General Sani Abacha,Coup,South West (Lagos State),"Bachelor's degree in Law, MBA",Independent,Democracy,Democratic Governance,"Shonekan's vision for Nigeria's future during his brief presidency was likely centered around restoring political stability, fostering economic growth, and transitioning to democratic governance.","The major controversy during Shonekan's tenure was the annulment of the 1993 presidential elections by the preceding military regime, which led to widespread political unrest and ultimately contributed to his ousting by General Sani Abacha.","Shonekan's legacy is primarily marked by his role as a transitional figure during a turbulent period in Nigerian history. While his tenure was short-lived and overshadowed by political instability, his efforts to navigate the transition to democratic rule and address economic challenges contribute to his legacy as a statesman.","Given the transitional nature of his government and the challenges he faced during his brief tenure, Shonekan's relationship with the National Assembly and other key stakeholders is not extensively documented. However, he likely engaged with various political actors and stakeholders in an attempt to steer the country towards stability and democratic governance.","If I may recount, the Interim National Government has made notable achievements. In the social sector, they've restored stability to higher education and upheld impeccable human rights records. They've freed jailed activists, pardoned political offenders, facilitated the return of exiled politicians, and initiated the repeal of bans on proscribed newspapers."
+year: 1993, value: 102775465","The highest of 102,775,465 and lowest rate of 83,585,251 described his tenure.",Babangida’s presidency averaged a Population growth rate of 0.92% during his 9 years in office.,"year: 1985, value: 0
+year: 1986, value: 0
+year: 1987, value: 0
+year: 1988, value: 0
+year: 1989, value: 0
+year: 1990, value: 0
+year: 1991, value: 3.83
+year: 1992, value: 3.77
+year: 1993, value: 4.10",The highest of 4.10% and lowest rate of 0% described his tenure.,Babangida’s presidency averaged a Unemployment range of 1.3 per 1000 persons during his 9 years in office.,Resignation amid political crisis and widespread protests following the annulment of the 1993 presidential election,Resignation,North Central (Niger State),"Military training, attended the Nigerian Military Training College and various military courses including those at the Indian Military Academy, United States Army Armor School, and Armed Forces Command and Staff College, Jaji",None,Authoritarian,"Pragmatism, Economic Liberalization, Pan-Africanism","Modernization, economic liberalization, and increased global engagement","Annulment of the June 12, 1993, presidential election, which led to widespread protests and political unrest; allegations of corruption and embezzlement of public funds during his regime","He is remembered for its economic policies such as the Structural Adjustment Program (SAP) and Mass Mobilization for Self Reliance, Social Justice and Economic Recovery (MAMSER), as well as for the controversial annulment of the June 12 election, which had significant implications for Nigeria's democratic transition. His regime also saw the establishment of state security apparatus and increased cooperation with the Muslim world.","As a military dictator, Babangida did not have a traditional relationship with the National Assembly, as it did not exist during his rule. However, he maintained control over the political landscape through the Armed Forces Ruling Council (AFRC) and other military structures.",But no nation can base its survival and development on luck and prayers alone while its leadership fritters away every available opportunity for success and concrete achievement.
+9,Chief Ernest Oladeinde Shonekan,9th Head of State of Nigeria,"9th May, 1936",Yoruba,"English, Yoruba",May,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328973/shonekan_tgtxcs.jpg,"Lagos, Lagos State",Lagos,Christianity,1993,57,"year: 1993, value: 57",57,3 months,Democratic,"year: 1993, value: 18.49",The highest and lowest deaths per 1000 persons was 18.49 in 1993.,"Shonekan’s presidency averaged a Death range of 18.62 per 1000 persons, spent 194 days in power and left it at the same rate.","year: 1993, value: 43.751",The highest and lowest births per 1000 persons was 43.75 in 1993.,"Shonekan’s presidency averaged a Death range of 43.75 per 1000 persons, spent 194 days in power and left it at the same rate.","year: 1993, value: 45.788",The highest and lowest of 45.79 was consistent through out his tenure.,"Shonekan met the Life Expectancy at 45.79, spent 83 days and left it at the same rate.","year: 1993, value: 57.16525283","Murtala met the Inflation rate at 57.16%, spent 199 days in power and left it at the same rate.","Shonekan met the Inflation rate at 57.17%, spent 83 days and left it at the same rate.","year: 1993, value: 123",The highest and lowest rate of 12.3% was consistent through out his tenure.,"Shonekan met the Inflation Mortality at 12.3%, spent 83 days and left it at the same rate.","year: 1993, value: -2.035118774","Shonekan met the GDP rate at -2.03%, spent 83 days and left it at the same rate.",Shonekan’s presidency averaged a GDP growth rate of -2.03% during his 83 days in office.,"year: 1993, value: 102775465","The highest and lowest rate of 102,775,465 was consistent through out his tenure.","Shonekan’s presidency met the Population rate at 1.02%, spent 83 days in power and left it at the same rate.","year: 1993, value: 4.10",The highest and lowest rate of 4.10% described his tenure.,"Shonekan’s presidency averaged a Unemployment range of 1.3 per 1000 persons, spent 194 days in power and left it at the same rate.",Overthrown in a military coup led by General Sani Abacha,Coup,South West (Lagos State),"Bachelor's degree in Law, MBA",Independent,Democracy,Democratic Governance,"Shonekan's vision for Nigeria's future during his brief presidency was likely centered around restoring political stability, fostering economic growth, and transitioning to democratic governance.","The major controversy during Shonekan's tenure was the annulment of the 1993 presidential elections by the preceding military regime, which led to widespread political unrest and ultimately contributed to his ousting by General Sani Abacha.","Shonekan's legacy is primarily marked by his role as a transitional figure during a turbulent period in Nigerian history. While his tenure was short-lived and overshadowed by political instability, his efforts to navigate the transition to democratic rule and address economic challenges contribute to his legacy as a statesman.","Given the transitional nature of his government and the challenges he faced during his brief tenure, Shonekan's relationship with the National Assembly and other key stakeholders is not extensively documented. However, he likely engaged with various political actors and stakeholders in an attempt to steer the country towards stability and democratic governance.","If I may recount, the Interim National Government has made notable achievements. In the social sector, they've restored stability to higher education and upheld impeccable human rights records. They've freed jailed activists, pardoned political offenders, facilitated the return of exiled politicians, and initiated the repeal of bans on proscribed newspapers."
 10,Sani Abacha,10th Head of State of Nigeria,"20th September, 1943",Kanuri,"English, Hausa",September,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715325017/abacha_b1yscv.jpg,"Kano, Kano State",Kano,Islam,1998,50,"year: 1998, value: 50",54,5,Military,"year: 1993, value: 18.49
 year: 1994, value: 18.43
 year: 1995, value: 18.37
 year: 1996, value: 18.32
 year: 1997, value: 18.26
-year: 1998, value: 18.2","year: 1993, value: -0.18
-year: 1994, value: -0.31
-year: 1995, value: -0.3
-year: 1996, value: -0.31
-year: 1997, value: -0.31
-year: 1998, value: -0.31",The highest deaths per 1000 persons were 18.49 in 1993. The Lowest was 18.2 in 1998.,Abacha’s presidency averaged a Death range of 18.35 per 1000 persons during his 5 years in office.,"year: 1993, value: 45.788
+year: 1998, value: 18.2",The highest deaths per 1000 persons were 18.49 in 1993. The Lowest was 18.2 in 1998.,Abacha’s presidency averaged a Death range of 18.35 per 1000 persons during his 6 years in office.,"year: 1993, value: 45.751
+year: 1994, value: 43.656
+year: 1995, value: 43.561
+year: 1996, value: 43.465
+year: 1997, value: 43.370
+year: 1998, value: 43.275",The highest births per 1000 persons were 45.75 in 1993. The Lowest was 47.28 in 1998.,Abacha’s presidency averaged a Birth range of 43.85 per 1000 persons during his 6 years in office.,"year: 1993, value: 45.788
 year: 1994, value: 45.513
 year: 1995, value: 45.487
 year: 1996, value: 45.567
@@ -252,7 +277,7 @@ year: 1994, value: 57.031708911966
 year: 1995, value: 72.8355023
 year: 1996, value: 29.26829268
 year: 1997, value: 8.529874214
-year: 1998, value: 9.996378124",The highest rate of 57.17% was achieved in 1993. The Lowest rate was 8.53% in his first year.,Abacha’s presidency averaged an Inflation rate of 39.14% during his 6 years in office.,,"year: 1993, value: 123
+year: 1998, value: 9.996378124",The highest rate of 57.17% was achieved in 1993. The Lowest rate was 8.53% in his first year.,Abacha’s presidency averaged an Inflation rate of 39.14% during his 6 years in office.,"year: 1993, value: 123
 year: 1994, value: 122.2
 year: 1995, value: 121.1
 year: 1996, value: 119.6
@@ -267,17 +292,23 @@ year: 1994, value: 105456121
 year: 1995, value: 108187610
 year: 1996, value: 110956183
 year: 1997, value: 113791181
-year: 1998, value: 116690527",The highest of 1.03% and lowest rate of 1.03% described his tenure.,Abacha’s presidency averaged a Population growth rate of 0.85% during his 6 years in office.,Died in office,Death,North West (Kano State),"Military training at the Nigerian Military Training College in Kaduna and the Mons Officer Cadet School in Aldershot, England
+year: 1998, value: 116690527","The highest of 116,690,527 and lowest rate of 102,775,465 described his tenure.",Abacha’s presidency averaged a Population growth rate of 0.85% during his 6 years in office.,"year: 1993, value: 4.10
+year: 1994, value: 4.15
+year: 1995, value: 4.28
+year: 1996, value: 4.12
+year: 1997, value: 4.01
+year: 1998, value: 3.95",The highest of 4.28% and lowest rate of 3.95% described his tenure.,Abacha’s presidency averaged a Unemployment range of 4.1 per 1000 persons during his 5 years in office.,Died in office,Death,North West (Kano State),"Military training at the Nigerian Military Training College in Kaduna and the Mons Officer Cadet School in Aldershot, England
 
 ",None,Authoritarian,Abacha's regime was primarily characterized by autocracy and corruption rather than a coherent political ideology.,"His regime emphasized economic stability and development, though his leadership was marred by widespread corruption and human rights abuses.","Abacha's regime was marked by allegations of embezzlement of state funds, suppression of political opposition, and human rights abuses. His government was accused of orchestrating the execution of activist Ken Saro-Wiwa and faced international condemnation.","Abacha's legacy is largely negative, characterized by corruption, authoritarianism, and economic mismanagement. His regime left a legacy of deep distrust in Nigerian politics and institutions.","Abacha's regime maintained a tight grip on power, often suppressing dissent and opposition, including within the National Assembly. His rule was marked by the centralization of power and limited political freedoms.","Any Insurgency that lasts more than 24 hours, a government official has a hand in it."
 11,Abdulsalami Alhaji Abubakar,11th Head of State of Nigeria,"13th June, 1942",Hausa,"English, Hausa",June,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715325024/abdusallam_q68yhg.jpg,"Minna, Niger State",Niger,Islam,1998,55,"year: 1998, value: 55",56,1,Military,"year: 1998, value: 18.2
-year: 1999, value: 18.02","year: 1998, value: -0.31
-year: 1999, value: -0.99",The highest deaths per 1000 persons were 18.2 in 1998. The Lowest was 18.02 in 1999.,Abubakar’s presidency averaged a Death range of 18.11 per 1000 persons during his 2 years in office.,"year: 1998, value: 46.036
+year: 1999, value: 18.02",The highest deaths per 1000 persons were 18.2 in 1998. The Lowest was 18.02 in 1999.,Abubakar’s presidency averaged a Death range of 18.11 per 1000 persons during his 2 years in office.,"year: 1998, value: 43.275
+year: 1999, value: 43.211",The highest births per 1000 persons were 43.27 in 1998. The Lowest was 43.21 in 1999.,Abubakar’s presidency averaged a Death range of 43.23 per 1000 persons during his 2 years in office.,"year: 1998, value: 46.036
 year: 1999, value: 46.036",The highest and Lowest was 46.04 in 1998.,Abubakar’s presidency averaged a Life Expectancy of 46.04 during his 2 years in office.,"year: 1998, value: 9.996378124
-year: 1999, value: 6.618373395",The highest rate of 10% was achieved in 1998. The Lowest rate was 6.62% in his 2nd year.,Abubakar’s presidency averaged an Inflation rate of 8.30% during his 2 years in office.,,"year: 1998, value: 115.2
+year: 1999, value: 6.618373395",The highest rate of 10% was achieved in 1998. The Lowest rate was 6.62% in his 2nd year.,Abubakar’s presidency averaged an Inflation rate of 8.30% during his 2 years in office.,"year: 1998, value: 115.2
 year: 1999, value: 112.4",The highest rate was 11.5% in 1998. The Lowest rate was 11.2%.,Abubakar’s presidency averaged an Infant Mortality of 11.35% during his 2 years in office.,"year: 1998, value: 2.581254102
 year: 1999, value: 0.584126893",The highest rate of 2.58% was achieved in 1998. The Lowest rate was 0.59% in his first year.,Abubakar’s presidency averaged a GDP growth rate of 1.58% during his 2 years in office.,"year: 1998, value: 116690527
-year: 1999, value: 119695565",The highest of 1.03% and lowest rate of 1.03% described his tenure.,Abubakar’s presidency averaged a Population growth rate of 0.52% during his 2 years in office.,Peaceful transition to civilian rule,Transition,North Central (Niger State),"Bachelor's degree in Political Science, Military courses",Non-affiliated,Transitional,Transitional Governance,"Facilitating the transition from military to civilian rule, establishment of democratic institutions and processes.","Controversy surrounding the annulment of the 1993 presidential elections by the preceding military regime of General Ibrahim Babangida. Some criticism for his association with the previous military administration under Sani Abacha, which was known for human rights abuses.","He is primarily remembered for overseeing a relatively smooth transition from military to civilian rule in Nigeria. Despite some criticisms, his role in facilitating the transition and conducting elections, albeit with irregularities, is acknowledged. He played a part in peace efforts in Liberia and Zimbabwe. His tenure marks a crucial phase in Nigerian history, transitioning the country towards democracy after years of military rule.","As a military leader overseeing a transitional period, His relationship with the National Assembly was limited, as it was not fully functional during his tenure. However, his role in facilitating the return to democratic governance was generally appreciated by key stakeholders involved in the transition process.","Fellow Nigerians, our land of abundance now has a ray of hope to fulfill its potential, and finally take its rightful place in the comity of nations."
+year: 1999, value: 119695565","The highest of 119,695,565 and lowest rate of 116,690,527 described his tenure.",Abubakar’s presidency averaged a Population growth rate of 0.52% during his 2 years in office.,"year: 1998, value: 3.95
+year: 1999, value: 4.04",The highest of 4.04% and lowest rate of 3.95% described his tenure.,Abubakar’s presidency averaged a Unemployment range of 3.99 per 1000 persons during his 2 years in office.,Peaceful transition to civilian rule,Transition,North Central (Niger State),"Bachelor's degree in Political Science, Military courses",Non-affiliated,Transitional,Transitional Governance,"Facilitating the transition from military to civilian rule, establishment of democratic institutions and processes.","Controversy surrounding the annulment of the 1993 presidential elections by the preceding military regime of General Ibrahim Babangida. Some criticism for his association with the previous military administration under Sani Abacha, which was known for human rights abuses.","He is primarily remembered for overseeing a relatively smooth transition from military to civilian rule in Nigeria. Despite some criticisms, his role in facilitating the transition and conducting elections, albeit with irregularities, is acknowledged. He played a part in peace efforts in Liberia and Zimbabwe. His tenure marks a crucial phase in Nigerian history, transitioning the country towards democracy after years of military rule.","As a military leader overseeing a transitional period, His relationship with the National Assembly was limited, as it was not fully functional during his tenure. However, his role in facilitating the return to democratic governance was generally appreciated by key stakeholders involved in the transition process.","Fellow Nigerians, our land of abundance now has a ray of hope to fulfill its potential, and finally take its rightful place in the comity of nations."
 12,Obasanjo Olusegun,12th President of Nigeria,"5th March, 1937",Yoruba,"English, Yoruba",March,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328956/obasanjo_xbksaj.jpg,"Abeokuta, Ogun State",Ogun,Christianity,1999,62,"year: 1999, value: 62",70,8,Democratic,"year: 1999, value: 18.02
 year: 2000, value: 17.84
 year: 2001, value: 17.66
@@ -286,15 +317,15 @@ year: 2003, value: 17.3
 year: 2004, value: 16.86
 year: 2005, value: 16.42
 year: 2006, value: 15.99
-year: 2007, value: 15.56","year: 1999, value: -0.99
-year: 2000, value: -1
-year: 2001, value: -1.02
-year: 2002, value: -1.02
-year: 2003, value: -1.04
-year: 2004, value: -2.5
-year: 2005, value: -2.58
-year: 2006, value: -2.65
-year: 2007, value: -2.72",The highest deaths per 1000 persons were 18.02 in 1999. The Lowest was 15.56 in 2007.,Abubakar’s presidency averaged a Death range of 17.01 per 1000 persons during his 9 years in office.,"year: 1999, value: 46.614
+year: 2007, value: 15.56",The highest deaths per 1000 persons were 18.02 in 1999. The Lowest was 15.56 in 2007.,Obasanjo’s presidency averaged a Death range of 17.01 per 1000 persons during his 9 years in office.,"year: 1999, value: 43.211
+year: 2000, value: 43.147
+year: 2001, value: 43.084
+year: 2002, value: 43.020
+year: 2003, value: 42.956
+year: 2004, value: 42.753
+year: 2005, value: 42.551
+year: 2006, value: 42.348
+year: 2007, value: 42.146",The highest births per 1000 persons were 43.21 in 1999. The Lowest was 42.15 in 2007.,Obasanjo’s presidency averaged a Death range of 42.8 per 1000 persons during his 9 years in office.,"year: 1999, value: 46.614
 year: 2000, value: 47.193
 year: 2001, value: 47.619
 year: 2002, value: 47.928
@@ -302,7 +333,7 @@ year: 2003, value: 48.441
 year: 2004, value: 48.767
 year: 2005, value: 49.297
 year: 2006, value: 49.73
-year: 2007, value: 50.033",The highest and Lowest was 50.03 in 2007.,Abubakar’s presidency averaged a Life Expectancy of 48.40 during his 9 years in office.,"year: 1999, value: 6.618373395
+year: 2007, value: 50.033",The highest and Lowest was 50.03 in 2007.,Obasanjo’s presidency averaged a Life Expectancy of 48.40 during his 9 years in office.,"year: 1999, value: 6.618373395
 year: 2000, value: 6.93329215565161
 year: 2001, value: 18.87364621
 year: 2002, value: 12.8765792
@@ -310,7 +341,7 @@ year: 2003, value: 14.03178361
 year: 2004, value: 14.99803382
 year: 2005, value: 17.86349337
 year: 2006, value: 8.22522152
-year: 2007, value: 5.388007969",The highest rate of 17.86% was achieved in 2002. The Lowest rate was 5.39% in his first year,Obasanjo’s presidency averaged an Inflation rate of 13.22% during his 8 years in office.,,"year: 1999, value: 112.4
+year: 2007, value: 5.388007969",The highest rate of 17.86% was achieved in 2002. The Lowest rate was 5.39% in his first year,Obasanjo’s presidency averaged an Inflation rate of 13.22% during his 8 years in office.,"year: 1999, value: 112.4
 year: 2000, value: 109.6
 year: 2001, value: 106.6
 year: 2002, value: 103.7
@@ -334,20 +365,28 @@ year: 2003, value: 133119801
 year: 2004, value: 136756848
 year: 2005, value: 140490722
 year: 2006, value: 144329764
-year: 2007, value: 148294028",The highest of 1.03% and lowest rate of 1.02% described his tenure.,Abubakar’s presidency averaged a Population growth rate of 0.91% during his 8 years in office.,"Term limits, completed two terms as allowed by the Nigerian constitution",Natural Expiration,South West (Ogun State),"Military training (Royal Military Academy, Sandhurst, United Kingdom); later earned a Bachelor's degree in Theology from the Open University of Nigeria",People's Democratic Party (PDP),Democratic,"Pragmatic centrism, with a focus on economic reform, anti-corruption measures, and national unity","Economic revitalization, eradication of corruption, promotion of democracy, and national unity","During his presidency, Obasanjo encountered controversies such as attempting to amend the constitution for a third term, facing corruption allegations despite anti-corruption efforts, and the dispute over withdrawing troops from the Bakassi Peninsula.","During his presidency, Obasanjo implemented economic reforms that boosted GDP and foreign reserves. He also created anti-corruption agencies like the EFCC and ICPC, prioritized infrastructure and poverty reduction, and improved press freedom and democracy. However, his legacy is tarnished by controversies, including corruption allegations and criticism of his political decisions.","During his presidency, Obasanjo encountered tensions with the National Assembly, notably during the Third Term Agenda controversy, and faced impeachment attempts from both houses. Despite this, he retained influence and support from key stakeholders in the political and economic spheres.","Nigeria has no business with poverty. With our human and material resources, we shall strive to eradicate poverty from our country."
+year: 2007, value: 148294028","The highest of 119,695,565 and lowest rate of 148,294,028 described his tenure.",Obasanjo’s presidency averaged a Population growth rate of 0.91% during his 8 years in office.,"year: 1999, value: 4.04
+year: 2000, value: 3.99
+year: 2001, value: 3.92
+year: 2002, value: 3.61
+year: 2003, value: 3.57
+year: 2004, value: 3.51
+year: 2005, value: 3.69
+year: 2006, value: 3.73
+year: 2007, value: 3.79",The highest of 4.04% and lowest rate of 3.51% described his tenure.,Obasanjo’s presidency averaged a Unemployment range of 3.76 per 1000 persons during his 9 years in office.,"Term limits, completed two terms as allowed by the Nigerian constitution",Natural Expiration,South West (Ogun State),"Military training (Royal Military Academy, Sandhurst, United Kingdom); later earned a Bachelor's degree in Theology from the Open University of Nigeria",People's Democratic Party (PDP),Democratic,"Pragmatic centrism, with a focus on economic reform, anti-corruption measures, and national unity","Economic revitalization, eradication of corruption, promotion of democracy, and national unity","During his presidency, Obasanjo encountered controversies such as attempting to amend the constitution for a third term, facing corruption allegations despite anti-corruption efforts, and the dispute over withdrawing troops from the Bakassi Peninsula.","During his presidency, Obasanjo implemented economic reforms that boosted GDP and foreign reserves. He also created anti-corruption agencies like the EFCC and ICPC, prioritized infrastructure and poverty reduction, and improved press freedom and democracy. However, his legacy is tarnished by controversies, including corruption allegations and criticism of his political decisions.","During his presidency, Obasanjo encountered tensions with the National Assembly, notably during the Third Term Agenda controversy, and faced impeachment attempts from both houses. Despite this, he retained influence and support from key stakeholders in the political and economic spheres.","Nigeria has no business with poverty. With our human and material resources, we shall strive to eradicate poverty from our country."
 13,Umaru Musa Yar'Adua,13th President of Nigeria,"16th August, 1951",Fulani,"English, Hausa",March,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715329636/yaradua_xdoe6k.jpg,"Katsina, Northern Region  ",Katsina,Islam,2007,55,"year: 2007, value: 55",58,3,Democratic,"year: 2007, value: 15.56
 year: 2008, value: 15.12
 year: 2009, value: 14.8
-year: 2010, value: 14.48","year: 2007, value: -2.72
-year: 2008, value: -2.8
-year: 2009, value: -2.14
-year: 2010, value: -2.8",The highest deaths per 1000 persons were 15.56 in 2007. The Lowest was 14.48 in 2010.,Yaradua’s presidency averaged a Death range of 14.99 per 1000 persons during his 4 years in office.,"year: 2007, value: 50.033
+year: 2010, value: 14.48",The highest deaths per 1000 persons were 15.56 in 2007. The Lowest was 14.48 in 2010.,Yaradua’s presidency averaged a Death range of 14.99 per 1000 persons during his 4 years in office.,"year: 2007, value: 42.146
+year: 2008, value: 41.943
+year: 2009, value: 41.658
+year: 2010, value: 41.374",The highest births per 1000 persons were 43.21 in 1999. The Lowest was 42.15 in 2007.,Yaradua’s presidency averaged a Death range of 41.78 per 1000 persons during his 4 years in office.,"year: 2007, value: 50.033
 year: 2008, value: 50.225
 year: 2009, value: 50.712
 year: 2010, value: 50.945",The highest was 50.95 in 2010. The Lowest was 50.03 in 2007,Yaradua’s presidency averaged a Life Expectancy of 50.48 during his 4 years in office.,"year: 2007, value: 5.388007969
 year: 2008, value: 11.58107517
 year: 2009, value: 12.53782773
-year: 2010, value: 13.74005214",The highest rate of 13.74% was achieved in 2009. The Lowest rate was 5.39% in his first year.,Yar'adua’s presidency averaged a Inflation rate of 10.81% during his 4 years in office.,,"year: 2007, value: 89.9
+year: 2010, value: 13.74005214",The highest rate of 13.74% was achieved in 2009. The Lowest rate was 5.39% in his first year.,Yar'adua’s presidency averaged a Inflation rate of 10.81% during his 4 years in office.,"year: 2007, value: 89.9
 year: 2008, value: 87.8
 year: 2009, value: 86
 year: 2010, value: 84.4",The highest rate was 0.89% in 1999. The Lowest rate was 0.84%.,Obasanjo’s presidency averaged an Infant Mortality of 0.87% during his 4 years in office.,"year: 2007, value: 6.591130361
@@ -356,18 +395,21 @@ year: 2009, value: 8.036925101
 year: 2010, value: 8.005655916",The highest rate of 8.03% was achieved in 2009. The Lowest rate was 6.59% in his first year.,Yar'adua’s presidency averaged a GDP growth rate of 7.98% during his 4 years in office.,"year: 2007, value: 148294028
 year: 2008, value: 152382506
 year: 2009, value: 156595758
-year: 2010, value: 160952853",The highest of 1.03% and lowest rate of 1.03% described his tenure.,Abubakar’s presidency averaged a Population growth rate of 0.25% during his 4 years in office.,Died in office due to illness,Death,North West (Katsina State),"Bachelor's degree in Education, Master's degree in Analytical Chemistry  ",People's Democratic Party (PDP),Democratic,Democratic Governance and Social Justice,"Advocated for a 7-point agenda focusing on electoral reforms, national security, economic development, infrastructure, food security, wealth creation, transport, land reforms, and education. This agenda aimed to address developmental challenges and elevate Nigeria among the world's largest economies by 2020.","His election in 2007 was highly controversial and criticized for being rigged. Additionally, his handling of the Boko Haram insurgency and the Niger Delta crisis faced criticism.","Yar'Adua's presidency was marked by efforts to promote electoral reforms and improve Nigeria's foreign relations. However, his tenure was also marred by health challenges and security issues, leaving a mixed legacy.","Yar'Adua sought to foster collaboration with the National Assembly and other stakeholders, promoting dialogue and cooperation in governance initiatives. However, his prolonged illness created a power vacuum, leading to tensions and controversies regarding his leadership succession.","We are determined to intensify the war against corruption, more so because corruption is itself central to the spread of poverty. Its corrosive effect is all too visible in all aspects of our national life. This is an area where we have made significant progress in recent years, and we will maintain the momentum."
+year: 2010, value: 160952853","The highest of 148,294,028 and lowest rate of 160,952,853 described his tenure.",Abubakar’s presidency averaged a Population growth rate of 0.25% during his 4 years in office.,"year: 2007, value: 3.79
+year: 2008, value: 3.79
+year: 2009, value: 3.76
+year: 2010, value: 3.73",The highest of 3.79% and lowest rate of 3.73% described his tenure.,Yaradua’s presidency averaged a Unemployment range of 3.77 per 1000 persons during his 4 years in office.,Died in office due to illness,Death,North West (Katsina State),"Bachelor's degree in Education, Master's degree in Analytical Chemistry  ",People's Democratic Party (PDP),Democratic,Democratic Governance and Social Justice,"Advocated for a 7-point agenda focusing on electoral reforms, national security, economic development, infrastructure, food security, wealth creation, transport, land reforms, and education. This agenda aimed to address developmental challenges and elevate Nigeria among the world's largest economies by 2020.","His election in 2007 was highly controversial and criticized for being rigged. Additionally, his handling of the Boko Haram insurgency and the Niger Delta crisis faced criticism.","Yar'Adua's presidency was marked by efforts to promote electoral reforms and improve Nigeria's foreign relations. However, his tenure was also marred by health challenges and security issues, leaving a mixed legacy.","Yar'Adua sought to foster collaboration with the National Assembly and other stakeholders, promoting dialogue and cooperation in governance initiatives. However, his prolonged illness created a power vacuum, leading to tensions and controversies regarding his leadership succession.","We are determined to intensify the war against corruption, more so because corruption is itself central to the spread of poverty. Its corrosive effect is all too visible in all aspects of our national life. This is an area where we have made significant progress in recent years, and we will maintain the momentum."
 14,Goodluck Ebele Jonathan,14th President of Nigeria,"20th November, 1957",Ijaw,"English, Ijaw  ",November,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715328943/goodluck_eism0d.jpg,"Ogbia, Bayelsa State, Nigeria",Bayelsa,Christianity,2010,52,"year: 2010, value: 52",57,5,Democratic,"year: 2010, value: 14.48
 year: 2011, value: 14.16
 year: 2012, value: 13.83
 year: 2013, value: 13.15
 year: 2014, value: 13.2
-year: 2015, value: 12.89","year: 2010, value: -2.8
-year: 2011, value: -2.23
-year: 2012, value: -2.27
-year: 2013, value: -2.33
-year: 2014, value: -2.29
-year: 2015, value: -2.34",The highest deaths per 1000 persons were 14.48 in 2010. The Lowest was 12.89 in 2010.,Goodluck’s presidency averaged a Death range of 13.62 per 1000 persons during his 6 years in office.,"year: 2010, value: 50.945
+year: 2015, value: 12.89",The highest deaths per 1000 persons were 14.48 in 2010. The Lowest was 12.89 in 2010.,Goodluck’s presidency averaged a Death range of 13.62 per 1000 persons during his 6 years in office.,"year: 2010, value: 41.374
+year: 2011, value: 41.089
+year: 2012, value: 40.805
+year: 2013, value: 40.520
+year: 2014, value: 40.036
+year: 2015, value: 39.551",The highest births per 1000 persons were 41.37 in 2010. The Lowest was 39.55 in 2015.,Goodluck’s presidency averaged a Death range of 40.56 per 1000 persons during his 6 years in office.,"year: 2010, value: 50.945
 year: 2011, value: 51.357
 year: 2012, value: 51.497
 year: 2013, value: 51.707
@@ -377,7 +419,7 @@ year: 2011, value: 10.82613719
 year: 2012, value: 12.2242413
 year: 2013, value: 8.495518383
 year: 2014, value: 8.04741088
-year: 2015, value: 9.00943498",The highest rate of 13.74% was achieved in 2009. The Lowest rate was 8.04% in 2014.,Goodluck’s presidency averaged an Inflation rate of 10.40% during his 6 years in office.,,"year: 2010, value: 84.4
+year: 2015, value: 9.00943498",The highest rate of 13.74% was achieved in 2009. The Lowest rate was 8.04% in 2014.,Goodluck’s presidency averaged an Inflation rate of 10.40% during his 6 years in office.,"year: 2010, value: 84.4
 year: 2011, value: 83.2
 year: 2012, value: 82
 year: 2013, value: 81.1
@@ -392,7 +434,12 @@ year: 2011, value: 165463745
 year: 2012, value: 170075932
 year: 2013, value: 174726123
 year: 2014, value: 179379016
-year: 2015, value: 183995785",The highest of 1.03% and lowest rate of 1.03% described his tenure.,Abubakar’s presidency averaged a Population growth rate of 0.86% during his 6 years in office., Lost the 2015 presidential election to Muhammadu Buhari.,Defeat,South South (Bayelsa State),Doctor of Philosophy degree in Zoology from the University of Port Harcourt.,People's Democratic Party (PDP),Democratic,Pragmatic centrism,"Focused on a Transformation Agenda, promised to continue implementing the seven-point agenda policy framework of President Yar'Adua, with a focus on anti-corruption, power, and electoral reforms.","Allegations of corruption and financial mismanagement during his administration, including the missing $20 billion NNPC scandal and the $2 billion arms deal controversy.","Known for overseeing Nigeria's re-basing of its GDP, making it the largest economy in Africa. Also, initiated infrastructure projects and reforms in various sectors, but his administration faced criticism for insecurity and corruption.","Often faced challenges and criticisms from the National Assembly, with frequent clashes over legislative matters and budget approvals.","We want to lead a country where people will be less greedy. Where people will know that the commonwealth of Nigeria belongs to all Nigerians, where people's wealth depends on the people around you. If you become a rich person and everyone around you is poor you are very poor."
+year: 2015, value: 183995785","The highest of 183,995,785 and lowest rate of 160,952,853 described his tenure.",Abubakar’s presidency averaged a Population growth rate of 0.86% during his 6 years in office.,"year: 2010, value: 3.73
+year: 2011, value: 3.77
+year: 2012, value: 3.77
+year: 2013, value: 3.71
+year: 2014, value: 3.88
+year: 2015, value: 4.11",The highest of 4.11% and lowest rate of 3.71% described his tenure.,Goodluck’s presidency averaged a Unemployment range of 3.83 per 1000 persons during his 6 years in office., Lost the 2015 presidential election to Muhammadu Buhari.,Defeat,South South (Bayelsa State),Doctor of Philosophy degree in Zoology from the University of Port Harcourt.,People's Democratic Party (PDP),Democratic,Pragmatic centrism,"Focused on a Transformation Agenda, promised to continue implementing the seven-point agenda policy framework of President Yar'Adua, with a focus on anti-corruption, power, and electoral reforms.","Allegations of corruption and financial mismanagement during his administration, including the missing $20 billion NNPC scandal and the $2 billion arms deal controversy.","Known for overseeing Nigeria's re-basing of its GDP, making it the largest economy in Africa. Also, initiated infrastructure projects and reforms in various sectors, but his administration faced criticism for insecurity and corruption.","Often faced challenges and criticisms from the National Assembly, with frequent clashes over legislative matters and budget approvals.","We want to lead a country where people will be less greedy. Where people will know that the commonwealth of Nigeria belongs to all Nigerians, where people's wealth depends on the people around you. If you become a rich person and everyone around you is poor you are very poor."
 15,Muhammadu Buhari,15th President of Nigeria,"17th December, 1942",Fulani,"English, Hausa",December,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715325041/buhari_fovset.jpg,"Daura, Northern Region, British Nigeria (Present Day Katsina)",Katsina,Islam,2015,72,"year: 2015, value: 72",81,8,Democratic,"year: 2015, value: 12.89
 year: 2016, value: 12.58
 year: 2017, value: 12.27
@@ -400,35 +447,35 @@ year: 2018, value: 11.97
 year: 2019, value: 11.77
 year: 2020, value: 11.58
 year: 2021, value: 11.38
-year: 2022, value: 11.18","year: 2015, value: -2.34
-year: 2016, value: -2.4
-year: 2017, value: -2.46
-year: 2018, value: -2.52
-year: 2019, value: -1.62
-year: 2020, value: -1.65
-year: 2021, value: -1.68
-year: 2022, value: -1.7",The highest deaths per 1000 persons were 12.89 in 2015. The Lowest was 11.18 in 2022.,Buhari’s presidency averaged a Death range of 11.95 per 1000 persons during his 6 years in office.,"year: 2015, value: 51.841
+year: 2022, value: 11.18   year: 2023, value: 10.94",The highest deaths per 1000 persons were 12.89 in 2015. The Lowest was 11.18 in 2022.,Buhari’s presidency averaged a Death range of 11.95 per 1000 persons during his 8 years in office.,"year: 2015, value: 39.551
+year: 2016, value: 39.067
+year: 2017, value: 38.582
+year: 2018, value: 38.098
+year: 2019, value: 37.684
+year: 2020, value: 37.269
+year: 2021, value: 36.855
+year: 2022, value: 36.440   year: 2023, value: 36.026",The highest births per 1000 persons were 39.551 in 2015. The Lowest was 36.026 in 2023.,Buhari’s presidency averaged a Death range of 42.47 per 1000 persons during his 8 years in office.,"year: 2015, value: 51.841
 year: 2016, value: 52.043
 year: 2017, value: 52.305
 year: 2018, value: 52.554
 year: 2019, value: 52.91
 year: 2020, value: 52.887
 year: 2021, value: 52.676
-year: 2022, value: 52.46",,,"year: 2015, value: 9.00943498
+year: 2022, value: 52.46.    year: 2023, value: 55.75",The highest was 55.75 in 2023. The Lowest was 51.84 in 2015,Buhari’s presidency averaged a Life Expectancy of 59.43 during his 4 years in office.,"year: 2015, value: 9.00943498
 year: 2016, value: 15.69681264
 year: 2017, value: 16.50226621
 year: 2018, value: 12.09510652
 year: 2019, value: 11.39642234
 year: 2020, value: 13.24602343
 year: 2021, value: 16.95284572
-year: 2022, value: 18.84718778",The highest rate of 18.85% was achieved in 2021. The Lowest rate was 9.00% in 1st year.,Buhari’s presidency averaged an Inflation rate of 14.22% during his 8 years in office.,,"year: 2015, value: 79.3
+year: 2022, value: 18.84718778. year: 2023, value: 28.92",The highest rate of 18.85% was achieved in 2021. The Lowest rate was 9.00% in 1st year.,Buhari’s presidency averaged an Inflation rate of 14.22% during his 8 years in office.,"year: 2015, value: 79.3
 year: 2016, value: 78.3
 year: 2017, value: 77.1
 year: 2018, value: 75.5
 year: 2019, value: 73.9
 year: 2020, value: 72.3
 year: 2021, value: 70.6
-year: 2022, value: 69.3",The highest rate was 52.91 in 2019. The Lowest rate was 51.84.,Buhari’s presidency averaged an Infant Mortality of 52.46 during his 8 years in office.,"year: 2015, value: 2.652693295
+year: 2022, value: 69.3.   year: 2023, value: 55.17",The highest rate was 52.91 in 2019. The Lowest rate was 51.84.,Buhari’s presidency averaged an Infant Mortality of 52.46 during his 8 years in office.,"year: 2015, value: 2.652693295
 year: 2016, value: -1.616868949
 year: 2017, value: 0.805886619
 year: 2018, value: 1.922757342
@@ -443,5 +490,12 @@ year: 2018, value: 198387623
 year: 2019, value: 203304492
 year: 2020, value: 208327405
 year: 2021, value: 213401323
-year: 2022, value: 218541212",The highest of 1.03% and lowest rate of 1.03% described his entire tenure.,Buhari’s presidency averaged a Population growth rate of 0.90% during his 8 years in office.,End of his second term,Natural Expiration,North West (Katsina State),Nigerian Military Training College,None,Authoritarian,Buharism (characterized by authoritarian policies and anti-corruption stance),"To combat corruption, improve security, and stimulate economic growth.","Allegations of human rights abuses by security forces, handling of the Boko Haram insurgency, economic recession, and social unrest such as the End SARS protests.","Mixed legacy with achievements in anti-corruption efforts, security, and infrastructure development, but criticized for slow economic growth and handling of social issues.","Often characterized by tensions and disagreements, especially regarding budgetary matters and legislative priorities.","People have been voting to choose their leader but their votes were never allowed to count, I will not allow the choice of the people to be subverted by any party, not even A.P.C."
-16,Bola Ahmed Adekunle Tinubu,16th President of Nigeria,"29th March, 1952",Yoruba,"English, Yoruba",December,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715329084/tinubu_ddc0va.jpg,Lagos,Lagos,Islam,2023,71,"year: 2023, value: 71",Incumbent,Incumbent,Democratic,,,,,,,,,,,,,,,"year: 2023, value: 3.251681408",,,,,,Incumbent,Incumbent,South West (Lagos State),Debatable,All Progressives Congress (APC),Populism,Progressivism,"Tinubu's vision likely includes economic reform, infrastructure development, and tackling corruption. He has shown commitment to overhauling the economy and implementing structural adjustments.","Tinubu has faced allegations of corruption, including freezing of assets by the United States government in relation to alleged heroin dealing, and investigations by Nigerian authorities over foreign accounts and financial transactions. Additionally, his role as a political 'godfather' in Lagos has stirred controversy.","Tinubu's legacy is complex. He's credited with playing a significant role in the formation of the All Progressives Congress (APC) and breaking the dominance of the People's Democratic Party (PDP) in Nigerian politics. However, his political dominance in Lagos and allegations of corruption have also sparked criticism.","Tinubu's relationship with the National Assembly and other stakeholders varies. He has been influential in Nigerian politics and has built alliances with various politicians and interest groups, but he has also faced opposition and criticism from some quarters.","When you take away the right of citizens to fair hearing in any democracy, you have committed a crime, and you have set the nation on the path of instability and destruction."
+year: 2022, value: 218541212 year:2023, value: 223804632","The highest of 223,804,632 and lowest rate of 183,995,785 described his entire tenure.",Buhari’s presidency averaged a Population growth rate of 0.90% during his 8 years in office.,"year: 2015, value: 4.11
+year: 2016, value: 4.52
+year: 2017, value: 4.89
+year: 2018, value: 5.12
+year: 2019, value: 5.21
+year: 2020, value: 5.63
+year: 2021, value: 5.26
+year: 2022, value: 5.26.   year: 2012, value: 3.58",The highest of 5.63% and lowest rate of 3.58% described his tenure.,Buhari’s presidency averaged a Unemployment range of 5.45 per 1000 persons during his 6 years in office.,End of his second term,Natural Expiration,North West (Katsina State),Nigerian Military Training College,None,Authoritarian,Buharism (characterized by authoritarian policies and anti-corruption stance),"To combat corruption, improve security, and stimulate economic growth.","Allegations of human rights abuses by security forces, handling of the Boko Haram insurgency, economic recession, and social unrest such as the End SARS protests.","Mixed legacy with achievements in anti-corruption efforts, security, and infrastructure development, but criticized for slow economic growth and handling of social issues.","Often characterized by tensions and disagreements, especially regarding budgetary matters and legislative priorities.","People have been voting to choose their leader but their votes were never allowed to count, I will not allow the choice of the people to be subverted by any party, not even A.P.C."
+16,Bola Ahmed Adekunle Tinubu,16th President of Nigeria,"29th March, 1952",Yoruba,"English, Yoruba",December,https://res.cloudinary.com/dq6kfxamf/image/upload/v1715329084/tinubu_ddc0va.jpg,Lagos,Lagos,Islam,2023,71,"year: 2023, value: 71",Incumbent,Incumbent,Democratic,"year: 2023, value: 10.94",Tinubu met the Death rate at 10.94%.,Tinubu’s presidency is averaging an Death rate of 10.94%.,"year: 2023, value: 36.026",Tinubu met the Birth rate at 36.03%.,Tinubu’s presidency is averaging a Birth rate of 36.03%.,"year: 2023, value: 55.75",Tinubu met the Death rate at 55.75%.,Tinubu’s presidency is averaging an Death rate of 55.75%.,"year: 2023, value: 28.92",Tinubu met the Inflation rate at 28.92%.,Tinubu’s presidency is averaging an Inflation rate of 28.92%.,"year: 2023, value: 55.17",Tinubu met the Infant Mortality rate at 55.17%.,Tinubu’s presidency is averaging an Inflation rate of 55.17%.,"year: 2023, value: 3.251681408",Tinubu met the Real GDP rate at 3.25%.,Tinubu’s presidency is averaging a Real GDP rate of 3.25%.,"year:2023, value: 223804632","Tinubu met the Population rate at 223,804,632.",Tinubu’s presidency is averaging a Population growth rate of 0.90%.,"year: 2023, value: 3.58",Tinubu met the Unemployment rate at 3.58.,Tinubu’s presidency averaged a Unemployment range of 5.45 per 1000 persons during his 6 years in office.,Incumbent,Incumbent,South West (Lagos State),Debatable,All Progressives Congress (APC),Populism,Progressivism,"Tinubu's vision likely includes economic reform, infrastructure development, and tackling corruption. He has shown commitment to overhauling the economy and implementing structural adjustments.","Tinubu has faced allegations of corruption, including freezing of assets by the United States government in relation to alleged heroin dealing, and investigations by Nigerian authorities over foreign accounts and financial transactions. Additionally, his role as a political 'godfather' in Lagos has stirred controversy.","Tinubu's legacy is complex. He's credited with playing a significant role in the formation of the All Progressives Congress (APC) and breaking the dominance of the People's Democratic Party (PDP) in Nigerian politics. However, his political dominance in Lagos and allegations of corruption have also sparked criticism.","Tinubu's relationship with the National Assembly and other stakeholders varies. He has been influential in Nigerian politics and has built alliances with various politicians and interest groups, but he has also faced opposition and criticism from some quarters.","When you take away the right of citizens to fair hearing in any democracy, you have committed a crime, and you have set the nation on the path of instability and destruction."
