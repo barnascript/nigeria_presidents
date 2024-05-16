@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react";
 import * as d3 from "d3";
-import data from "../../src/sheets/presidents.csv";
+import data from "../sheets/presidents.csv";
 
 const CsvContextProvider = createContext(null);
 const CsvContext = ({ children }) => {
