@@ -10,12 +10,16 @@ const Timeline = ({ metric }) => {
   useEffect(() => {
     if (!selectedPresident) return; // Ensure selectedPresident is available
 
-    const rate = selectedPresident[metric];
+    const rate = selectedPresident && selectedPresident?.[metric];
+
+    console.log(selectedPresident);
+
+    // console.log(selectedPresident[metric]);
 
     const deathEntries = rate.split("\n").map((line) => {
       const parts = line.split(",");
       const year = parseInt(parts[0].split(":")[1]);
-      const value = parseFloat(parts[1].split(":")[1]);
+      const value = parseInt(parts[1].split(":")[1]);
 
       return { year, value };
     });
