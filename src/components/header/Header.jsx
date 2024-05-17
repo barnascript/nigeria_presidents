@@ -18,7 +18,7 @@ const Header = () => {
         <nav aria-label="Main Navigation" className={styles.links}>
           <Link to="/insights">Insights</Link>
           <Link to="/glance">At A Glance</Link>
-          <Link>Comparisons</Link>
+          <Link to="/comparisons">Comparisons</Link>
         </nav>
       </div>
       <div className={`sw ${styles.mobile_container}`}>

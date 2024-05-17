@@ -3,6 +3,7 @@ import Profile from "./pages/Profile";
 import Insights from "./pages/insights/Insights";
 import { Routes, Route } from "react-router-dom";
 import Glance from "./pages/atAGlance/Glance";
+import Comparisons from "./pages/comparisons/Comparisons";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Route exact path="/profile/:id" element={<Profile />} />
       <Route exact path="/insights" element={<Insights />} />
       <Route exact path="/glance" element={<Glance />} />
+      <Route exact path="/comparisons" element={<Comparisons />} />
     </Routes>
   );
 };
