@@ -35,11 +35,23 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 35px;
         grid-column: span 12;
         max-width: 70%;
         margin: auto;
         text-align: center;
+
+        .name {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .buttons {
+          display: flex;
+          gap: 15px;
+          align-items: center;
+        }
       }
     }
 
@@ -103,20 +115,48 @@
         gap: 57px;
         text-transform: uppercase;
         grid-column: span 5;
+        width: 100%;
 
         h6 {
+          display: flex;
+          align-items: center;
+          gap: 13px;
           font-family: "RedRose-Bold";
           color: var(--green);
         }
 
-        .cards {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-          grid-gap: 1em;
-          width: 100%;
+        table {
+          display: flex;
+          flex-direction: column;
+          border: 0.5px solid var(--green);
+          border-collapse: collapse;
+          border-radius: 8px;
 
-          .card {
-            width: 100%;
+          width: 100%;
+          tr:nth-child(odd) {
+            background-color: var(--gin);
+          }
+          tr:nth-child(1) {
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+          }
+          tr:last-child {
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+          }
+
+          tr {
+            padding: 21px;
+            border: 0.5px solid var(--green);
+            border-collapse: collapse;
+            .title {
+              display: flex;
+              align-items: center;
+              gap: 6px;
+              span {
+                text-transform: capitalize;
+              }
+            }
           }
         }
       }
@@ -141,7 +181,7 @@
         grid-template-columns: repeat(12, 1fr);
         gap: 0px;
         width: 100%;
-        height: 690px;
+        height: 670px;
 
         .president_image {
           grid-column: span 6;
@@ -159,14 +199,21 @@
 
         .intro {
           display: flex;
+          flex-direction: column;
+          gap: 35px;
           align-items: center;
           justify-content: center;
           align-self: center;
           justify-self: center;
-          gap: 10px;
           grid-column: span 6;
           max-width: 100%;
           margin: auto;
+
+          .name {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
         }
       }
 
@@ -231,15 +278,77 @@
             color: var(--green);
           }
 
-          .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-            grid-gap: 1em;
-            width: 100%;
-            padding-bottom: 203px;
+          table {
+            display: flex;
+            flex-direction: column;
+            border: 0.5px solid var(--green);
+            border-collapse: collapse;
+            border-radius: 8px;
 
-            .card {
-              width: 100%;
+            width: 100%;
+            tr:nth-child(odd) {
+              background-color: var(--gin);
+            }
+            tr:nth-child(1) {
+              border-top-right-radius: 8px;
+              border-top-left-radius: 8px;
+            }
+            tr:last-child {
+              border-bottom-right-radius: 8px;
+              border-bottom-left-radius: 8px;
+            }
+
+            tr {
+              display: grid;
+              grid-template-columns: repeat(12, 1fr);
+              padding: 21px;
+              border: 0.5px solid var(--green);
+              border-collapse: collapse;
+              grid-gap: 0em;
+              .title {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                grid-column: span 6;
+                position: relative;
+                padding-inline-end: 20px;
+
+                span {
+                  text-transform: capitalize;
+                }
+
+                &::before {
+                  content: "";
+                  width: 1px;
+                  height: 50px;
+                  background-color: var(--green);
+                  position: absolute;
+                  bottom: -21px;
+                  right: 0;
+                }
+
+                &::after {
+                  content: "";
+                  width: 1px;
+                  height: 100%;
+                  background-color: var(--green);
+                  position: absolute;
+                  top: -21px;
+                  bottom: -100px;
+                  right: 0;
+                }
+              }
+
+              .line {
+                height: 100%;
+                width: 2px;
+                background-color: red;
+              }
+
+              span {
+                grid-column: span 6;
+                padding-inline-start: 20px;
+              }
             }
           }
         }
@@ -258,7 +367,6 @@
 
       .top {
         display: grid;
-        place-items: center;
         grid-template-columns: repeat(12, 1fr);
         gap: 0px;
         width: 100%;
@@ -267,7 +375,6 @@
         .president_image {
           grid-column: span 6;
           height: inherit;
-          width: 100%;
 
           img {
             height: inherit;
@@ -284,12 +391,17 @@
           align-items: center;
           justify-content: center;
           align-self: center;
-          margin: auto;
           justify-self: center;
-          gap: 10px;
+          gap: 35px;
           grid-column: span 6;
-          height: inherit;
-          width: 100%;
+          max-width: 100%;
+          margin: auto;
+
+          .name {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
         }
       }
 
@@ -347,22 +459,25 @@
           flex-direction: column;
           gap: 57px;
           text-transform: uppercase;
-          grid-column: span 5;
 
           h6 {
-            font-family: "RedRose-Bold";
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            font-family: "RedRose-Medium";
             color: var(--green);
           }
 
-          .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-            grid-gap: 1em;
-            width: 100%;
-            padding-bottom: 203px;
-
-            .card {
-              width: 100%;
+          .table {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            .info {
+              .title {
+                span {
+                  text-transform: capitalize;
+                }
+              }
             }
           }
         }

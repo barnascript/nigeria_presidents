@@ -3,7 +3,8 @@ import { useLocation, Link, useNavigate } from "react-router-dom";
 import { useCsvContext } from "../context/CsvContext";
 import Header from "../components/header/Header";
 import { useEffect, useState } from "react";
-import { Footer, LifeCard } from "../exports/exports";
+import { Footer, LifeCard, house } from "../exports/exports";
+import { search } from "../exports/exports";
 
 const Profile = () => {
   const [value, setValue] = useState("");
@@ -35,9 +36,15 @@ const Profile = () => {
           <div className={styles.president_image}>
             <img src={president?.["Image Url"]} alt={president?.Full_Name} />
           </div>
-          <div className={styles.intro}>
-            <h3 className="title">{president?.Full_Name}</h3>
-            <h6 className="p_small_green">{president?.Title}</h6>
+          <div className={` ${styles.intro}`}>
+            <div className={styles.name}>
+              <h3 className="title">{president?.Full_Name}</h3>
+              <h6 className="p_small_green">{president?.Title}</h6>
+            </div>
+            <div className={styles.buttons}>
+              <button>Short Biography</button>
+              <button>Life under the lens</button>
+            </div>
           </div>
         </div>
         <div className={`${styles.grid_container}`}>
@@ -59,72 +66,251 @@ const Profile = () => {
               </ul>
             </div>
           </article>
-          <ul className={styles.presidents_links}>
-            <h6>LIFE UNDER THE LENS</h6>
+          <ul className={`sw ${styles.presidents_links}`}>
+            <h6>
+              LIFE UNDER THE LENS <img src={search} alt="A search Icon" />
+            </h6>
+            <table>
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Full Name</span>
+                </div>
+                <span className="p_header">{president?.Full_Name}</span>
+              </tr>
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Title</span>
+                </div>
+                <span className="p_header">{president?.Title}</span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Date of Birth</span>
+                </div>
+                <span className="p_header">{president?.["Date of Birth"]}</span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Ethnic Group</span>
+                </div>
+                <span className="p_header">{president?.["Ethnic Group"]}</span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Leadership style</span>
+                </div>
 
-            <div className={`sw ${styles.cards}`}>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-              <div className={styles.card}>
-                <LifeCard
-                  title={"Date of Birth"}
-                  description={president?.["Date of Birth"]}
-                />
-              </div>
-            </div>
+                <span className="p_header">
+                  {president?.["Leadership style"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Month of Birth</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Month of Birth"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Place of Birth</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Place of Birth"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Year he took over power</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Year he took over power"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Age When he came to power</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Age When he came to power"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Age when he left</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Age when he left"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Years in Power</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Years in Power"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    Political ideology or philosophy
+                  </span>
+                </div>
+                <span className="p_header">
+                  {president?.["Political ideology or philosophy"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Reason for leaving Power</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Reason for leaving Power"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    The Geopolitical Zone he came from
+                  </span>
+                </div>
+                <span className="p_header">
+                  {president?.["The Geopolitical Zone he came from"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Political Party</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Political Party"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Language</span>
+                </div>
+                <span className="p_header">{president?.Language}</span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Place of Birth</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Place of Birth"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">State of Origin</span>
+                </div>
+                <span className="p_header">
+                  {president?.["State of Origin"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    Political ideology or philosophy
+                  </span>
+                </div>
+                <span className="p_header">
+                  {president?.["Political ideology or philosophy"]}
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    Major political controversies or scandals involving the
+                    president
+                  </span>
+                </div>
+                <span className="p_header">
+                  {
+                    president?.[
+                      "Major political controversies or scandals involving the president"
+                    ]
+                  }
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    Legacy or lasting impact on Nigerian politics and society
+                  </span>
+                </div>
+                <span className="p_header">
+                  {
+                    president?.[
+                      "Legacy or lasting impact on Nigerian politics and society"
+                    ]
+                  }
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    Relationship with the National Assembly (Parliament) and
+                    other key stakeholders
+                  </span>
+                </div>
+                <span className="p_header">
+                  {
+                    president?.[
+                      "Relationship with the National Assembly (Parliament) and other key stakeholders"
+                    ]
+                  }
+                </span>
+              </tr>{" "}
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">
+                    Vision for Nigeria's future during his presidency
+                  </span>
+                </div>
+                <span className="p_header">
+                  {
+                    president?.[
+                      "Vision for Nigeria's future during his presidency"
+                    ]
+                  }
+                </span>
+              </tr>
+              <tr>
+                <div className={styles.title}>
+                  <img src={house} alt="A house icon" />
+                  <span className="p_root">Military or Democratic</span>
+                </div>
+                <span className="p_header">
+                  {president?.["Military or Democratic"]}
+                </span>
+              </tr>
+            </table>
           </ul>
         </div>
       </div>

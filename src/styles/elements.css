@@ -45,3 +45,29 @@ option {
 li {
   list-style: none;
 }
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: var(--Green, #18592a);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+  text-decoration-line: underline;
+  display: inline-flex;
+  padding: 14px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--gin);
+  font-family: "Roboto-Regular";
+}
+
+button:hover {
+  background-color: var(--green);
+  color: white;
+  cursor: pointer;
+}
