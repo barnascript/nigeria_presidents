@@ -4,13 +4,13 @@
   }
 
   to {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 }
 
 @keyframes movedown {
   from {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 
   to {
@@ -20,15 +20,13 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 30px;
-  padding-top: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+  grid-gap: 1em;
 
   .president {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    grid-column: span 3;
+    gap: 4px;
     border: 1px solid white;
     border-radius: 8px;
     border-radius: 8px;
@@ -46,13 +44,9 @@
     .desc {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 4px;
       padding: 10px;
       padding-bottom: 20px;
-
-      h5 {
-        font-family: "Public SansMedium";
-      }
     }
 
     &:hover {
@@ -61,76 +55,6 @@
 
     &:not(:hover) {
       animation: movedown 0.5s ease-in-out forwards;
-    }
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .wrapper {
-    grid-gap: 20px;
-    padding-top: 200px;
-
-    .president {
-      grid-column: span 12;
-
-      img {
-        height: 400px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 401px) and (max-width: 700px) {
-  .wrapper {
-    grid-gap: 15px;
-    padding-top: 200px;
-    max-width: 80%;
-    margin: auto;
-
-    .president {
-      grid-column: span 12;
-      width: 350px;
-      margin: auto;
-
-      img {
-        height: 400px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 701px) and (max-width: 900px) {
-  .wrapper {
-    grid-gap: 30px;
-    padding-top: 200px;
-    max-width: 100%;
-
-    .president {
-      grid-column: span 6;
-      width: 100%;
-      margin: auto;
-
-      img {
-        height: 350px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1100px) {
-  .wrapper {
-    grid-gap: 30px;
-    padding-top: 200px;
-    max-width: 80%;
-
-    .president {
-      grid-column: span 6;
-      width: 100%;
-      margin: auto;
-
-      img {
-        height: 350px;
-      }
     }
   }
 }

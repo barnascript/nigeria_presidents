@@ -2,17 +2,31 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Public Sans";
 }
 
-.sw {
-  max-width: 1280px;
+body {
+  font-family: "Roboto-Regular", sans-serif;
+  font-display: swap;
+  font-size: 1em;
+}
+
+.hw {
+  max-width: 1380px;
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
 }
+.sw {
+  max-width: 1050px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-@font-face {
-  font-family: "Public Sans";
-  src: url(../src/fonts/Public_Sans/static/PublicSans-Regular.ttf);
+:root {
+  --grey: #565656;
+  --green: #18592a;
+  --light_green: #268c36;
+  --box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.11);
+  --background: #fafafa;
 }

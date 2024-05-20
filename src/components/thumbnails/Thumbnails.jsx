@@ -16,10 +16,15 @@ const Thumbnails = () => {
             key={president.id}
             className={styles.president}
           >
-            <img src={president["Image Url"]} alt={president.Name} />
+            <img
+              src={president["Image Url"]}
+              alt={president.Name}
+              loading="lazy"
+              decoding="async"
+            />
             <div className={styles.desc}>
-              <h5>{president.Full_Name}</h5>
-              <small>{president.Title}</small>
+              <h5 className="p_header">{president.Full_Name}</h5>
+              <small className="p_small_CAP">{president.Title}</small>
             </div>
           </Link>
         );

@@ -1,233 +1,370 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 100px;
 
   .container {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
 
     .top {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      place-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding-top: 60px;
 
       .president_image {
         justify-self: flex-start;
-        grid-column: span 6;
-        width: 100%;
+        grid-column: span 12;
+        height: 600px;
 
         img {
-          border-radius: 8px;
-          height: 600px;
-          filter: brightness(80%);
+          height: inherit;
+          filter: brightness(70%);
           display: flex;
+          position: absolute;
           width: 100%;
-          position: relative;
+          left: 0;
+          object-fit: cover;
         }
       }
 
       .intro {
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
         gap: 10px;
-        grid-column: span 6;
-        max-width: 500px;
+        grid-column: span 12;
+        max-width: 70%;
+        margin: auto;
         text-align: center;
-
-        .design_body {
-          display: flex;
-          flex-direction: column;
-          border-bottom: 1px solid grey;
-          padding-bottom: 30px;
-          gap: 15px;
-
-          .flag_div {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            gap: 5px;
-            .flag_ {
-              display: flex;
-              align-items: center;
-              gap: 30px;
-              .left_stroke,
-              .right_stroke {
-                width: 100px;
-                height: 1px;
-                background-color: grey;
-              }
-              .flag {
-                width: 50px;
-                position: relative;
-              }
-            }
-          }
-
-          .links {
-            a {
-              text-decoration: underline;
-
-              &:hover {
-                border-bottom: 1px solid transparent;
-              }
-            }
-          }
-        }
       }
     }
 
     .grid_container {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--background);
+      padding-top: 42px;
+      padding-bottom: 20px;
       width: 100%;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      .profile {
+      gap: 102px;
+
+      article {
         display: flex;
         flex-direction: column;
-        gap: 100px;
-        grid-column: span 7;
-        ul {
+        gap: 23px;
+        width: 90%;
+        .quotes {
           display: flex;
           flex-direction: column;
-          gap: 20px;
+          position: relative;
+          gap: 23px;
+          margin: auto;
+          color: var(--green);
+
+          .line {
+            width: 100%;
+            height: 1px;
+            background-color: var(--light_green);
+          }
+          .quote {
+            blockquote {
+              font-size: clamp(1.5rem, 3vw, 2rem);
+              font-family: "Libre";
+              text-align: left;
+            }
+          }
+        }
+        .profile {
+          display: flex;
+          flex-direction: column;
+          gap: 100px;
+          grid-column: span 7;
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li {
+              white-space: pre-line;
+              widows: 2;
+            }
+          }
         }
       }
 
       .presidents_links {
         display: flex;
-        justify-self: center;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 57px;
         text-transform: uppercase;
         grid-column: span 5;
 
-        a {
-          font-size: 0.8rem;
-          text-decoration: underline;
+        h6 {
+          font-family: "RedRose-Bold";
+          color: var(--green);
+        }
 
-          &:hover {
-            border-bottom: none;
+        .cards {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+          grid-gap: 1em;
+          width: 100%;
+
+          .card {
+            width: 100%;
           }
         }
       }
     }
+  }
 
-    .quotes {
-      display: flex;
-      justify-content: center;
-      justify-self: center;
-      align-self: center;
-      position: relative;
-      max-width: 700px;
-      margin: auto;
-      text-align: center;
-      blockquote {
-        font-size: clamp(1.5rem, 3vw, 2rem);
-        padding-top: 50px;
-        padding-bottom: 50px;
+  .footer {
+    background-color: var(--background);
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .container {
+      flex-direction: column;
+
+      .top {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 0px;
+        width: 100%;
+        height: 690px;
+
+        .president_image {
+          grid-column: span 6;
+          height: inherit;
+
+          img {
+            height: inherit;
+            filter: brightness(70%);
+            display: flex;
+            position: absolute;
+            width: 50%;
+            left: 0;
+          }
+        }
+
+        .intro {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          align-self: center;
+          justify-self: center;
+          gap: 10px;
+          grid-column: span 6;
+          max-width: 100%;
+          margin: auto;
+        }
       }
-      .left_quote {
-        transform: scale(4);
-        position: absolute;
-        left: 0;
-      }
-      .right_quote {
-        transform: scale(4);
-        position: absolute;
-        right: 0;
-        bottom: 0;
+
+      .grid_container {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background);
+        padding-top: 42px;
+        padding-bottom: 20px;
+        gap: 102px;
+
+        article {
+          display: flex;
+          flex-direction: column;
+          gap: 23px;
+          width: 75%;
+          .quotes {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            gap: 23px;
+            margin: auto;
+            text-align: center;
+            color: var(--green);
+
+            .line {
+              width: 100%;
+              height: 1px;
+              background-color: var(--light_green);
+            }
+            .quote {
+              blockquote {
+                font-size: clamp(1.5rem, 3vw, 2rem);
+                font-family: "Libre";
+              }
+            }
+          }
+          .profile {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            grid-column: span 7;
+            ul {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+            }
+          }
+        }
+
+        .presidents_links {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 57px;
+          text-transform: uppercase;
+          grid-column: span 5;
+
+          h6 {
+            font-family: "RedRose-Bold";
+            color: var(--green);
+          }
+
+          .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+            grid-gap: 1em;
+            width: 100%;
+            padding-bottom: 203px;
+
+            .card {
+              width: 100%;
+            }
+          }
+        }
       }
     }
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 70em) {
   .wrapper {
+    display: flex;
+    flex-direction: column;
+
     .container {
+      flex-direction: column;
+
       .top {
-        grid-gap: 20px;
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 0px;
+        width: 100%;
+        height: 690px;
 
         .president_image {
-          justify-self: center;
-          grid-column: span 12;
+          grid-column: span 6;
+          height: inherit;
+          width: 100%;
 
           img {
-            height: 400px;
+            height: inherit;
+            filter: brightness(70%);
+            display: flex;
+            position: absolute;
+            width: 50%;
+            left: 0;
           }
         }
 
         .intro {
-          grid-column: span 12;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          align-self: center;
+          margin: auto;
+          justify-self: center;
+          gap: 10px;
+          grid-column: span 6;
+          height: inherit;
+          width: 100%;
         }
       }
 
       .grid_container {
-        grid-gap: 20px;
-        .profile {
-          grid-column: span 12;
-        }
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background);
+        padding-top: 42px;
+        padding-bottom: 20px;
+        gap: 102px;
 
-        .presidents_links {
-          justify-self: flex-start;
-          grid-column: span 12;
-        }
-      }
+        article {
+          display: flex;
+          flex-direction: column;
+          gap: 23px;
+          width: 50%;
+          .quotes {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            gap: 23px;
+            margin: auto;
+            text-align: center;
+            color: var(--green);
 
-      .quotes {
-        .left_quote {
-          transform: scale(2);
-        }
-        .right_quote {
-          transform: scale(2);
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .wrapper {
-    .container {
-      .top {
-        max-width: 80%;
-        grid-gap: 20px;
-        margin: auto;
-
-        .president_image {
-          justify-self: center;
-          grid-column: span 12;
-
-          img {
-            height: 400px;
+            .line {
+              width: 100%;
+              height: 1px;
+              background-color: var(--light_green);
+            }
+            .quote {
+              blockquote {
+                font-size: clamp(1.5rem, 3vw, 2rem);
+                font-family: "Libre";
+              }
+            }
+          }
+          .profile {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            grid-column: span 7;
+            ul {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+            }
           }
         }
 
-        .intro {
-          grid-column: span 12;
-        }
-      }
-
-      .grid_container {
-        grid-gap: 20px;
-        .profile {
-          grid-column: span 6;
-        }
-
         .presidents_links {
-          justify-self: flex-end;
-          grid-column: span 6;
-        }
-      }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 57px;
+          text-transform: uppercase;
+          grid-column: span 5;
 
-      .quotes {
-        max-width: 60%;
-        .left_quote {
-          transform: scale(2);
-        }
-        .right_quote {
-          transform: scale(2);
+          h6 {
+            font-family: "RedRose-Bold";
+            color: var(--green);
+          }
+
+          .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+            grid-gap: 1em;
+            width: 100%;
+            padding-bottom: 203px;
+
+            .card {
+              width: 100%;
+            }
+          }
         }
       }
     }
