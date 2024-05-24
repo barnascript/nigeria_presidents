@@ -32,6 +32,9 @@ const MethodOfGovernance = () => {
           ],
           type: "bar",
         },
+        color: {
+          pattern: ["#268c36"],
+        },
         axis: {
           x: {
             type: "category",

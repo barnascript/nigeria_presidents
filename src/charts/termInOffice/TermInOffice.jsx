@@ -34,6 +34,9 @@ const TermInOffice = () => {
           ],
           type: "bar",
         },
+        color: {
+          pattern: ["#268c36"],
+        },
         axis: {
           x: {
             type: "category",

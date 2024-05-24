@@ -25,6 +25,7 @@ const LeavingOffice = () => {
         columns: data,
         type: "pie",
       },
+
       pie: {
         label: {
           format: function (value, ratio, id) {

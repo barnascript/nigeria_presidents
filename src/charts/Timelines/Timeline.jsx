@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useCallback } from "react";
 import { useCsvContext } from "../../context/CsvContext";
 import c3 from "c3";
 import styles from "./Timeline.module.scss";
@@ -6,14 +6,20 @@ import styles from "./Timeline.module.scss";
 const Timeline = ({ metric }) => {
   const chartRef = useRef();
   const { selectedPresident, presidents, isLoading } = useCsvContext();
+  const chartInstance = useRef(null); // Ref to store the chart instance
 
   const rate = selectedPresident?.[metric];
 
+  // Memoize the resize handler function
+  const handleResize = useCallback(() => {
+    if (chartInstance.current) {
+      chartInstance.current.resize(); // Update chart dimensions
+    }
+  }, []); // Empty dependency array means this function is memoized and does not change across renders
+
   useEffect(() => {
-    const AreaChart = () => {
-      if (!rate) {
-        return;
-      }
+    // Initialize the chart once
+    if (rate && !chartInstance.current) {
       const deathEntries = rate.split("\n").map((line) => {
         const parts = line.split(",");
         const year = parseInt(parts[0].split(":")[1]);
@@ -37,7 +43,7 @@ const Timeline = ({ metric }) => {
       const minValue = Math.min(...deathEntries.map((entry) => entry.value));
       const maxValue = Math.max(...deathEntries.map((entry) => entry.value));
 
-      const chart = c3.generate({
+      chartInstance.current = c3.generate({
         bindto: chartRef.current,
         data: data,
         color: {
@@ -56,19 +62,16 @@ const Timeline = ({ metric }) => {
           },
         },
       });
+    }
 
-      return () => {
-        chart.destroy();
-      };
-    };
+    // Attach the resize event listener
+    window.addEventListener("resize", handleResize);
 
-    AreaChart();
-    window.addEventListener("resize", AreaChart);
-
+    // Cleanup function to remove the event listener
     return () => {
-      window.removeEventListener("resize", AreaChart);
+      window.removeEventListener("resize", handleResize);
     };
-  }, [selectedPresident, metric, rate, presidents]);
+  }, [selectedPresident, metric, rate, presidents, handleResize]); // Include handleResize in the dependency array
 
   return <div className={styles.container} ref={chartRef}></div>;
 };

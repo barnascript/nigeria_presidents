@@ -28,6 +28,9 @@ const OfficeAssumption = () => {
     const chart = c3.generate({
       bindto: chartRef.current,
       data: data,
+      color: {
+        pattern: ["#268c36"],
+      },
       axis: {
         x: {
           type: "timeseries",
