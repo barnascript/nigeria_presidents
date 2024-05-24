@@ -10,3 +10,14 @@ export { default as Footer } from "../components/footer/Footer";
 
 // mini components
 export { default as LifeCard } from "../mini components/lifeCard/LifeCard";
+export { default as HeroTitle } from "../mini components/heroTitle/HeroTitle";
+
+// charts
+export { default as BirthMonth } from "../charts/birthMonth/BirthMonth";
+export { default as AgeDistribution } from "../charts/ageDistribution/AgeDistribution";
+export { default as EthnicGroup } from "../charts/ethnicGroup/EthnicGroup";
+export { default as MethodOfLeavingOffice } from "../charts/leavingOffice/MethodOfLeavingOffice";
+export { default as MethodOfGovernance } from "../charts/methodOfGovernance/MethodOfGovernance";
+export { default as OfficeAssumption } from "../charts/officeAssumption/OfficeAssumption";
+export { default as Religion } from "../charts/religion/Religion";
+export { default as TermInOffice } from "../charts/termInOffice/TermInOffice";

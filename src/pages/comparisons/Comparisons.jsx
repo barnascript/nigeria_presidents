@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import MultiLines from "../../charts/multiLines/MultiLines";
 import styles from "./Comparisons.module.scss";
 import { useCsvContext } from "../../context/CsvContext";
+import { Footer, HeroTitle } from "../../exports/exports";
 
 const Comparisons = () => {
   const { presidents, selectedPresident, setValue, setSelectedPresident } =
@@ -23,6 +24,10 @@ const Comparisons = () => {
       <div>
         <Header />
       </div>
+      <HeroTitle
+        title={"Comparisons"}
+        position={"Learn more about the Presidents of Nigeria"}
+      />
       <div className={`sw ${styles.container}`}>
         <div className={styles.top}>
           <select
@@ -47,17 +52,28 @@ const Comparisons = () => {
             />
           )}
         </div>
-        <div>
-          <MultiLines metric1={"Life Expectancy"} metric2={"Death Numbers"} />
-          <MultiLines metric1={"Birth Rate"} metric2={"Death Numbers"} />
-          <MultiLines metric1={"Inflation"} metric2={"Real GDP"} />
-          <MultiLines metric1={"Unemployment Numbers"} metric2={"Real GDP"} />
-          <MultiLines
-            metric1={"Infant Mortality Number"}
-            metric2={"Birth Rate"}
-          />
+        <div className={styles.charts}>
+          <div className={styles.chart}>
+            <MultiLines metric1={"Life Expectancy"} metric2={"Death Numbers"} />
+          </div>
+          <div className={styles.chart}>
+            <MultiLines metric1={"Birth Rate"} metric2={"Death Numbers"} />
+          </div>
+          <div className={styles.chart}>
+            <MultiLines metric1={"Inflation"} metric2={"Real GDP"} />
+          </div>
+          <div className={styles.chart}>
+            <MultiLines metric1={"Unemployment Numbers"} metric2={"Real GDP"} />
+          </div>
+          <div className={styles.chart}>
+            <MultiLines
+              metric1={"Infant Mortality Number"}
+              metric2={"Birth Rate"}
+            />
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

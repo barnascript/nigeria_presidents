@@ -1,13 +1,13 @@
-import { sunset } from "../../exports/exports";
+import { HeroTitle, sunset } from "../../exports/exports";
 import styles from "./Hero.module.scss";
 
 const Hero = () => {
   return (
     <div className={styles.wrapper}>
-      <h1 className="title">PRESIDENTS</h1>
-      <span className="p_small_green">
-        Learn more about the Presidents of the Nigeria
-      </span>
+      <HeroTitle
+        title={"PRESIDENTS"}
+        position={" Learn more about the Presidents of Nigeria"}
+      />
       <div className={styles.state_house_container}>
         <div className={styles.line}></div>
         <div className={styles.state_house}>

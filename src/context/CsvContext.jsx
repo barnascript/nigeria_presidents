@@ -2,27 +2,33 @@ import { createContext, useContext, useState, useEffect } from "react";
 import * as d3 from "d3";
 import data from "../sheets/presidents.csv";
 
-const CsvContextProvider = createContext(null);
+const CsvContextProvider = createContext({});
+
 const CsvContext = ({ children }) => {
   const [presidents, setPresidents] = useState([]);
   const [selectedPresident, setSelectedPresident] = useState(null);
   const [value, setValue] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
+
+  console.log(presidents);
 
   useEffect(() => {
     const getData = async () => {
-      const csvArray = await d3.csv(data);
-      setPresidents(csvArray);
-      if (csvArray.length > 0) {
-        setSelectedPresident(csvArray[0]);
+      try {
+        const array = await d3.csv(data);
+        console.log(array);
+        setPresidents(array);
+
+        if (array.length > 0) {
+          setSelectedPresident(array[0]);
+        }
+      } catch (error) {
+        console.error("Error loading CSV data:", error.message);
       }
     };
 
     getData();
-  }, []);
-
-  useEffect(() => {
-    setSelectedPresident(selectedPresident);
-  });
+  }, [data]);
 
   return (
     <CsvContextProvider.Provider
@@ -33,6 +39,7 @@ const CsvContext = ({ children }) => {
         setValue,
         selectedPresident,
         setSelectedPresident,
+        isLoading,
       }}
     >
       {children}

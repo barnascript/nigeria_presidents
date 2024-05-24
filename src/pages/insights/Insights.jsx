@@ -2,18 +2,23 @@ import Header from "../../components/header/Header";
 import styles from "./Insights.module.scss";
 import AgeDistribution from "../../charts/ageDistribution/AgeDistribution";
 import ChartHeader from "../../mini components/chartHeader/ChartHeader";
-import OfficeAssumption from "../../charts/officeAssumption/OfficeAssumption";
-import BirthMonth from "../../charts/birthMonth/BirthMonth";
-import Religion from "../../charts/religion/Religion";
-import MethodOfGovernance from "../../charts/methodOfGovernance/MethodOfGovernance";
-import EthnicGroup from "../../charts/ethnicGroup/EthnicGroup";
-import { Chart } from "react-google-charts";
-import LeavingOffice from "../../charts/leavingOffice/MethodOfLeavingOffice";
+import { Footer, HeroTitle } from "../../exports/exports";
+import { useCsvContext } from "../../context/CsvContext";
+import { useState } from "react";
+import Timeline from "../../charts/Timelines/Timeline";
 
 const Insights = () => {
+  const {
+    presidents,
+    selectedPresident: president,
+    setSelectedPresident,
+  } = useCsvContext();
+
+  const [value, setValue] = useState(1);
+
   const today = new Date();
   const year = today.getFullYear();
-  const month = today.getMonth() + 1; // Months are zero-based
+  const month = today.getMonth() + 1;
   const day = today.getDate();
 
   const currentDay = new Date(year, month - 1, day);
@@ -44,152 +49,203 @@ const Insights = () => {
   ];
 
   const data = [columns, ...rows];
+
+  const handlePresidentChange = (e) => {
+    const selectedId = e.target.value;
+    const president = presidents.find(
+      (president) => president.id === String(selectedId)
+    );
+    setSelectedPresident(president);
+  };
+
   return (
-    <div className={styles.wrapper}>
-      <Header />
-      <div className={`sw ${styles.charts}`}>
-        {/* Age Distribution */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Age distribution of Nigeria Presidents"}
-              fact={
-                "The Youngest President to come to power is Yakubu Gowon at 31 while the Oldest is Muhammadu Buhari at 72."
-              }
-              average={
-                "The average age of Nigerian presidents when they came to power is 54.5 years old."
-              }
-            />
-          </div>
-          <div>
-            <AgeDistribution />
-          </div>
+    <div className={`${styles.wrapper}`}>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <HeroTitle
+          title={"Insights"}
+          position={"Learn more about the Presidents of Nigeria"}
+        />
+      </div>
+      <div className={`sw ${styles.details}`}>
+        <div className={`${styles.filter}`}>
+          <select
+            name="president"
+            id="president"
+            value={value}
+            onChange={handlePresidentChange}
+          >
+            {presidents &&
+              presidents.map((president) => (
+                <option value={president.id} key={president.id}>
+                  {president.Full_Name}
+                </option>
+              ))}
+          </select>
         </div>
-        {/* Age at  Office Assumption */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={
-                "Age distribution of Nigeria Presidents by Office Assumption"
-              }
-              fact={
-                "Since 1966, The Entry Age to Presidency has increased by 132%."
-              }
-              average={
-                "The average age of Nigerian presidents when they came to power is 54.5 years old."
-              }
-            />
-          </div>
-          <div>
-            <OfficeAssumption />
-          </div>
+        <div className={` ${styles.biography}`}>
+          <img src={president?.["Image Url"]} alt={president?.Full_Name} />
+          <article>
+            <div className={styles.title}>
+              <span className="post_header">{president?.Full_Name}</span>
+              <span className="p_small_CAP">{president?.Title}</span>
+            </div>
+            <p>
+              Nigeria's first President, Azikiwe was a leading nationalist and
+              politician who played a key role in the country's independence
+              from British colonial rule. He advocated for unity and federalism,
+              but his presidency was cut short by a military coup. Despite not
+              serving as President, Azikiwe remained a prominent figure in
+              Nigerian politics until his death.
+            </p>
+          </article>
         </div>
-        {/* Birth Month */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Birth Month Distribution of Nigeria Presidents"}
-              fact={
-                "The Most Birth Month is March(3) and November(3). No President has been born in January, April, July and September."
-              }
-              average={
-                "So far, Only 1 President had been born in February, May, June, August and October. 2 were born in December."
-              }
-            />
+
+        <div className={` ${styles.charts}`}>
+          {/* Birth Rate */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Number of Births Per 1000"}
+                  fact={president?.["Birth Rate Highest and Lowest"]}
+                  average={president?.["Birth Rate Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Birth Rate"} />
+              </div>
+            </div>
           </div>
-          <div>
-            <BirthMonth />
+          {/* Life Expectancy */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Life Expectancy"}
+                  fact={president?.["Life Expectancy Highest and Lowest"]}
+                  average={president?.["Life Expectancy Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Life Expectancy"} />
+              </div>
+            </div>
           </div>
-        </div>
-        {/* Religion */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Religious Distribution of Nigeria Presidents"}
-              fact={"Nigeria has had more Muslim presidents(8)."}
-              average={
-                "There has never been a president who practised any religion different from Islam and Christainity."
-              }
-            />
+
+          {/* Infant Mortality Number */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Infant Mortality Number"}
+                  fact={
+                    president?.["Infant Mortality Percent Highest and Lowest"]
+                  }
+                  average={president?.["Infant Mortality Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Infant Mortality Number"} />
+              </div>
+            </div>
           </div>
-          <div>
-            <Religion />
+          {/* Inflation */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Inflation Rate"}
+                  fact={president?.["Inflation Highest and Lowest"]}
+                  average={president?.["Inflation Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Inflation"} />
+              </div>
+            </div>
           </div>
-        </div>
-        {/* Method of governance */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Method of Governance"}
-              fact={
-                "The Democratic and Military types of government have been equalled in the last 16 presidencies."
-              }
-              average={
-                "The Longest Military rule was under General Ibrahim Babangida from 1985 to 1993. He ruled for 8 years. The Longest Democratic rules were under Olusegun Obasanjo and Muhammad Buhari. They ruled for 8 years each."
-              }
-            />
+          {/* Real GDP */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Real GDP"}
+                  fact={president?.["GDP Highest and Lowest"]}
+                  average={president?.["GDP Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Real GDP"} />
+              </div>
+            </div>
           </div>
-          <div>
-            <MethodOfGovernance />
+          {/* Population */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Population"}
+                  fact={president?.["Population Highest and Lowest"]}
+                  average={president?.["Population Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Population"} />
+              </div>
+            </div>
           </div>
-        </div>
-        {/* Ethnic group */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Ethnic Distribution of Nigeria Presidents"}
-              fact={
-                "The Ethnic group to produce the most presidents is the Fulani."
-              }
-              average={
-                "Aside Fulani, only 4 presidents have come from the minority. They are the Gwaris, Ngas, Ijaws and the Kanuris."
-              }
-            />
+          {/* Unemployment Rate */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Unemployment Numbers"}
+                  fact={president?.["Unemployment Highest and Lowest"]}
+                  average={president?.["Unemployment Rate Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div className={styles.chart_layout}>
+                <Timeline metric={"Unemployment Numbers"} />
+              </div>
+            </div>
           </div>
-          <div>
-            <EthnicGroup />
-          </div>
-        </div>
-        {/* Method of leaving office */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Method of Leaving Office"}
-              fact={
-                "Nigeria has experienced 6 coups. The most methods of leaving office. No president has ever been impeached."
-              }
-              average={
-                "Only 2 times has a president left office by Natural Expiration, 2 deaths, 2 transitions, 1 assassination, 1 resignation and 1 defeat."
-              }
-            />
-          </div>
-          <div>
-            <LeavingOffice />
-          </div>
-        </div>
-        {/* Term in Office */}
-        <div className={styles.chart}>
-          <div>
-            <ChartHeader
-              metric={"Term in Office"}
-              fact={
-                "The Shortest rule was under Earnest Shonekan. He ruled for only 83 days after which Sani Abacha took over by a coup."
-              }
-              average={
-                "The Longest Military rule was under General Ibrahim Babangida from 1985 to 1993. He ruled for 8 years. The Longest Democratic rules were under Olusegun Obasanjo and Muhammad Buhari. They ruled for 8 years each."
-              }
-            />
-          </div>
-          <div>
-            <Chart
-              chartType="Timeline"
-              data={data}
-              width="100%"
-              height="400px"
-            />
+          {/* Death Rate */}
+          <div className={styles.chart}>
+            <div className={styles.timeline}>
+              <div>
+                <ChartHeader
+                  metric={"Number of Deaths Per 1000"}
+                  fact={president?.["Death Rate Highest and Lowest"]}
+                  average={president?.["Death Rate Analysis"]}
+                />
+                <hr />
+              </div>
+
+              <div>
+                <Timeline metric={"Death Numbers"} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

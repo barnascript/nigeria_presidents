@@ -25,6 +25,9 @@ const AgeDistribution = () => {
           columns: [["Age", ...values]],
           type: "bar",
         },
+        color: {
+          pattern: ["#268c36"],
+        },
         axis: {
           rotated: true, // Transpose the axes
           x: {

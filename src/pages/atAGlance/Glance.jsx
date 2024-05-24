@@ -4,6 +4,17 @@ import { useCsvContext } from "../../context/CsvContext";
 import Header from "../../components/header/Header";
 import ChartHeader from "../../mini components/chartHeader/ChartHeader";
 import Timeline from "../../charts/Timelines/Timeline";
+import {
+  EthnicGroup,
+  HeroTitle,
+  MethodOfLeavingOffice,
+  MethodOfGovernance,
+  Religion,
+  OfficeAssumption,
+  AgeDistribution,
+  BirthMonth,
+  TermInOffice,
+} from "../../exports/exports";
 
 const Glance = () => {
   const {
@@ -35,9 +46,17 @@ const Glance = () => {
 
   return (
     <div className={styles.wrapper}>
-      <Header />
+      <div>
+        <Header />
+      </div>
+      <div>
+        <HeroTitle
+          title={"At a Glance"}
+          position={"Learn more about the Presidents of Nigeria"}
+        />
+      </div>
       <div className={`sw ${styles.container}`}>
-        <div className={styles.top}>
+        {/* <div className={styles.top}>
           <select
             name="president"
             id="president"
@@ -60,78 +79,80 @@ const Glance = () => {
               alt={selectedPresident.Full_Name}
             />
           )}
-        </div>
+        </div> */}
 
         <div className={styles.charts}>
+          {/* Age Distribution */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Number of Deaths Per 1000"}
+              metric={"Age Distribution"}
               fact={selectedPresident?.["Death Rate Analysis"]}
               average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Death Numbers"} />
+            <AgeDistribution />
           </div>
+          {/* Birth Month */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Real GDP"}
-              fact={selectedPresident?.["GDP Analysis"]}
-              average={selectedPresident?.["GDP Highest and Lowest"]}
+              metric={"Birth Month"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Real GDP"} />
+            <BirthMonth />
           </div>
+          {/* Ethnic Group */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Infant Mortality Per 1000"}
-              fact={selectedPresident?.["Infant Mortality Analysis"]}
-              average={
-                selectedPresident?.[
-                  "Infant Mortality Percent Highest and Lowest"
-                ]
-              }
+              metric={"Ethnic Group"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Infant Mortality Number"} />
+            <EthnicGroup />
           </div>
+          {/* Religion */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Population in Millions"}
-              fact={selectedPresident?.["Population Analysis"]}
-              average={selectedPresident?.["Population Highest and Lowest"]}
+              metric={"Religion"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Population"} />
+            <Religion />
           </div>
+          {/* Leaving Office */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Birth Rate"}
-              fact={selectedPresident?.["Birth Rate Analysis"]}
-              average={selectedPresident?.["Birth Rate Highest and Lowest"]}
+              metric={"Leaving Office"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Birth Rate"} />
+            <MethodOfLeavingOffice />
           </div>
+          {/* Method of Governance */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Life Expectancy"}
-              fact={selectedPresident?.["Life Expectancy Analysis"]}
-              average={
-                selectedPresident?.["Life Expectancy Highest and Lowest"]
-              }
+              metric={"Method of Governance"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Life Expectancy"} />
+            <MethodOfGovernance />
           </div>
+          {/* Office Assumption */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Unemployment Rate"}
-              fact={selectedPresident?.["Unemployment Rate Analysis"]}
-              average={selectedPresident?.["Unemployment Highest and Lowest"]}
+              metric={"Office Assumption"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Unemployment Numbers"} />
+            <OfficeAssumption />
           </div>
+          {/* Term in Office */}
           <div className={styles.chart}>
             <ChartHeader
-              metric={"Inflation"}
-              fact={selectedPresident?.["Inflation Analysis"]}
-              average={selectedPresident?.["Inflation Highest and Lowest"]}
+              metric={"Term in Office"}
+              fact={selectedPresident?.["Death Rate Analysis"]}
+              average={selectedPresident?.["Death Rate Highest and Lowest"]}
             />
-            <Timeline metric={"Inflation"} />
+            <TermInOffice />
           </div>
         </div>
       </div>

@@ -1,19 +1,24 @@
+import { useEffect } from "react";
 import { arrow_up, coat_of_arms } from "../../exports/exports";
 import styles from "./Footer.module.scss";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer>
       <div className={`sw ${styles.wrapper}`}>
         <div className={styles.link_container}>
-          <Link>
+          <a hre="#" onClick={scrollToTop} className={styles.scrollToTop}>
             <img
               src={arrow_up}
               alt="An arrow Icon that takes the user to the top of the page"
             />
             <span>Back to the top</span>
-          </Link>
+          </a>
           <div className={styles.line}></div>
         </div>
 

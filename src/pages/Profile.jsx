@@ -22,14 +22,25 @@ const Profile = () => {
     window.scrollTo(0, 0);
   });
 
-  const summary = president?.["Summary"].replace(`${"\n"} ${"<br>"}`, "<br>");
+  // const scrollToSection = (sectionid) => {
+  //   const section = document.getElementById(sectionid);
+  //   if (section) {
+  //     const topOffset = section.offsetTop;
+  //     window.scrollTo({
+  //       top: topOffset,
+  //       behavior: "smooth", // Optional: smooth scrolling behavior
+  //     });
+  //   }
+  // };
 
-  console.log(summary);
+  const summary = president?.["Summary"].replace(`${"\n"} ${"<br>"}`, "<br>");
 
   return (
     <div className={`${styles.wrapper}`}>
       <div>
-        <Header />
+        <div className="top">
+          <Header />
+        </div>
       </div>
       <div className={`${styles.container}`}>
         <div className={`sw ${styles.top}`}>
@@ -42,13 +53,17 @@ const Profile = () => {
               <h6 className="p_small_green">{president?.Title}</h6>
             </div>
             <div className={styles.buttons}>
-              <button>Short Biography</button>
-              <button>Life under the lens</button>
+              <Link to="#article">
+                <button>Short Biography</button>
+              </Link>
+              <Link to="#lens">
+                <button>Life under the lens</button>
+              </Link>
             </div>
           </div>
         </div>
         <div className={`${styles.grid_container}`}>
-          <article className="sw">
+          <article className="sw" id="article">
             <p className="p_small_green">
               {`The biography for President ${selectedPresident?.["Full_Name"]} and past presidents is courtesy
             of the POTRON project.`}
@@ -66,7 +81,7 @@ const Profile = () => {
               </ul>
             </div>
           </article>
-          <ul className={`sw ${styles.presidents_links}`}>
+          <ul className={`sw ${styles.presidents_links}`} id="lens">
             <h6>
               LIFE UNDER THE LENS <img src={search} alt="A search Icon" />
             </h6>

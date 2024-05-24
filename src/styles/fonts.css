@@ -3,7 +3,7 @@
   font-size: clamp(2rem, 10vw, 2.453125em);
   font-style: normal;
   font-weight: 700;
-  line-height: 42.39px; /* 108% */
+  line-height: 1.5; /* 108% */
   letter-spacing: -1.069px;
   text-transform: uppercase;
   color: var(--green);
@@ -14,7 +14,7 @@
   font-size: 1.5596875em;
   font-style: normal;
   font-weight: 700;
-  line-height: 42.39px; /* 108% */
+  line-height: 1.5; /* 108% */
   letter-spacing: -1.069px;
   text-transform: uppercase;
   color: var(--green);
@@ -26,7 +26,7 @@
   font-size: 0.875em;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.5;
   color: var(--grey);
 }
 .p_small_green {
@@ -35,7 +35,7 @@
   font-size: 0.875em;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.5;
   color: var(--green);
 }
 
@@ -44,9 +44,19 @@
   font-size: 0.875em;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   text-transform: capitalize;
   color: var(--green);
+}
+.post_header {
+  color: var(--Green, #18592a);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  font-family: "Roboto-Medium";
 }
 
 .p_small_CAP {
@@ -55,7 +65,7 @@
   font-size: 0.75em;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
+  line-height: 1.5;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   color: #18592a;
@@ -66,7 +76,7 @@
   font-size: 0.875em;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--green);
 }
 
@@ -154,5 +164,5 @@ a {
 
 @font-face {
   font-family: "Libre";
-  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
 }

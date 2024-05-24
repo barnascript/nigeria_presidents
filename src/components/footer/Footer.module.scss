@@ -20,6 +20,10 @@ footer {
       flex-direction: column;
       gap: 12px;
 
+      .scrollToTop {
+        cursor: pointer;
+      }
+
       a {
         display: flex;
         align-items: center;
